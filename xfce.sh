@@ -1,0 +1,1 @@
+sudo apt install xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager terminator geany gigolo gvfs-backends network-manager-gnome system-config-printer linux-headers-$(uname -r) build-essential git net-tools nmap htop cups firefox-esr remmina fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 zip unzip
