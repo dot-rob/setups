@@ -1,1 +1,1 @@
-sudo apt install kde-plasma-desktop kde-spectacle plasma-nm ark okular gwenview kcalc dragonplayer pkexec linux-headers-$(uname -r) build-essential git net-tools nmap htop cups firefox-esr remmina fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 zip unzip
+sudo apt install kde-plasma-desktop kde-spectacle plasma-nm ark okular gwenview kcalc dragonplayer pkexec
