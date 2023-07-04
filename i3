@@ -1,0 +1,1 @@
+sudo apt install xorg xinit i3 alacritty geany pcmanfm compton feh hsetroot system-config-printer network-manager-gnome linux-headers-$(uname -r) build-essential net-tools nmap htop cups firefox-esr remmina fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 zip unzip
