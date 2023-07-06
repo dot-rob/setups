@@ -1,1 +1,0 @@
-sudo apt install xorg xinit bspwm sxhkd polybar suckless-tools alacritty geany pcmanfm feh hsetroot compton brightnessctl lxappearance arc-theme papirus-icon-theme system-config-printer network-manager-gnome xfce4-power-manager
