@@ -1,1 +1,1 @@
-sudo apt install kde-plasma-desktop kde-spectacle plasma-nm pkexec ark okular gwenview kcalc kate kwrite vlc linux-headers-$(uname -r) remmina firefox-esr build-essential iproute2 nmap htop fonts-jetbrains-mono fonts-liberation2 cups git
+sudo apt install kde-plasma-desktop kde-spectacle plasma-nm pkexec ark okular gwenview kcalc kate kwrite vlc linux-headers-$(uname -r) openfortivpn remmina putty firefox-esr build-essential iproute2 nmap htop fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 cups zip unzip git
