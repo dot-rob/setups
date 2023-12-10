@@ -1,0 +1,1 @@
+sudo apt install gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-system-monitor gnome-text-editor gnome-tweaks nautilus tilix evince linux-headers-$(uname -r) chromium build-essential iproute2 nmap htop fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 cups zip unzip
