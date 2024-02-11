@@ -1,1 +1,0 @@
-sudo apt install lxde-core lightdm lightdm-gtk-greeter-settings lxterminal lxappearance lxappearance-obconf lxtask lxinput lxrandr lxhotkey-gtk lxsession-edit lxsession-default-apps geany galculator gpicview xfce4-power-manager system-config-printer network-manager-gnome
