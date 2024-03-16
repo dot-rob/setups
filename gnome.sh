@@ -1,1 +1,1 @@
-sudo apt install gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-software gnome-system-monitor gnome-text-editor gnome-tweaks evince geany nautilus tilix eog totem
+sudo apt install gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-software gnome-system-monitor gnome-text-editor gnome-tweaks evince nautilus tilix linux-headers-$(uname -r) openfortivpn remmina putty chromium build-essential iproute2 nmap htop fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 cups zip unzip
