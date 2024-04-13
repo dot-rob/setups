@@ -1,0 +1,178 @@
+# Sway Config
+
+# -- Mod Keys ------------------------------------------------
+set $mod Mod4
+
+
+# -- Reload --------------------------------------------------
+bindsym $mod+Shift+c reload
+
+
+# -- Terminal ------------------------------------------------
+bindsym $mod+Return exec foot
+
+
+# -- Launcher ------------------------------------------------
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
+
+
+# -- Outputs -------------------------------------------------
+#   swaymsg -t get_outputs
+output eDP-1 resolution 1920x1080 position 1920,0
+output HDMI-A-1 resolution 1920x1080 position 0,0
+workspace 9 output HDMI-A-1
+
+
+# -- Wallpaper -----------------------------------------------
+output * bg /home/rob/Pictures/ultron.jpg fill
+
+
+# -- Gaps ----------------------------------------------------
+gaps inner 10
+gaps outer 0
+
+
+# -- Sound ---------------------------------------------------
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +1%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -1%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+
+# -- Brightness ----------------------------------------------
+bindsym XF86MonBrightnessUp exec brightnessctl set +1%
+bindsym XF86MonBrightnessDown exec brightnessctl set 1%-
+
+
+# -- SwayIdle ------------------------------------------------
+exec swayidle -w \
+    timeout 300 'swaylock -f -c 000000' \
+    timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+    before-sleep 'swaylock -f -c 000000'
+
+
+# -- Key Bindings --------------------------------------------
+
+# Launcher
+bindsym $mod+d exec $menu
+
+# Apps
+bindsym $mod+w exec firefox
+bindsym $mod+t exec geany
+bindsym $mod+e exec thunar
+
+# Focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Kill
+bindsym $mod+q kill
+    
+# Exit
+bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit? This will end your Wayland session.' -B 'Exit Sway.' 'swaymsg exit'
+
+# Workspaces
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+
+# move to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+
+
+# -- Layouts -------------------------------------------------
+bindsym $mod+Shift+h splith
+bindsym $mod+Shift+v splitv
+
+bindsym $mod+Shift+p layout toggle split
+#bindsym $mod+Shift+s layout stacking
+#bindsym $mod+Shift+t layout tabbed
+
+bindsym $mod+Shift+f fullscreen
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+focus_follows_mouse no
+
+
+# -- Resize --------------------------------------------------
+mode "resize" {
+    # Enable resize mode to use these bindings:
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+
+    # Return from resize mode to default mode:
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+
+# -- Colors (Nord) -------------------------------------------
+set $black "#000000"
+set $transparent "#00000000"
+set $white "#ffffff"
+
+set $charcoal "#2e3440"
+set $grey-darkest "#3b4252"
+set $grey-darker "#434c5e"
+set $grey-dark "#4c566a"
+set $grey-light "#d8dee9"
+set $grey-lighter "#e5e9f0"
+set $grey-lightest "#eceff4"
+set $calm "#8fbcbb"
+set $blue-light "#88c0d0"
+set $blue-medium "#81a1c1"
+set $blue-dark "#5e81ac"
+set $red "#bf616a"
+set $orange "#d08770"
+set $yellow "#ebcb8b"
+set $green "#a3be8c"
+set $magenta "#b48ead"
+
+# class                 		border  		backgr. 		text    		indicator 		child_border
+    client.focused          	$blue-dark		$blue-dark 		$white 			$blue-medium   	$blue-medium
+    client.focused_inactive 	$grey-light 	$grey-light 	$white 			$grey-dark   	$grey-dark
+    client.unfocused        	$charcoal		$charcoal 		$grey-lighter 	$charcoal   	$charcoal
+    client.urgent           	$red		 	$red			$white			$red 			$red
+    client.placeholder      	$charcoal		$charcoal		$white 			$charcoal  		$charcoal
+
+client.background       		$white
+
+
+# -- Bar -----------------------------------------------------
+bar {
+    position top
+
+    swaybar_command waybar
+	  
+}
