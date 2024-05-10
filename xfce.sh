@@ -1,1 +1,1 @@
-sudo apt install xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager tilix ristretto geany gigolo gvfs-backends network-manager-gnome system-config-printer
+sudo apt install xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager terminator ristretto geany gigolo gvfs-backends network-manager-gnome system-config-printer
