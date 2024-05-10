@@ -1,1 +1,1 @@
-sudo apt install xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager terminator ristretto parole shotwell geany gigolo gvfs-backends mousepad network-manager-gnome system-config-printer
+sudo apt install xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager terminator ristretto parole shotwell atril geany gigolo gvfs-backends mousepad network-manager-gnome system-config-printer
