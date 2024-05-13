@@ -1,1 +1,1 @@
-sudo apt install gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-system-monitor gnome-text-editor gnome-themes-extra gnome-tweaks fonts-cantarell celluloid evince nautilus shotwell tilix
+sudo apt install gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-system-monitor gnome-text-editor gnome-themes-extra gnome-tweaks tilix nautilus celluloid evince shotwell fonts-cantarell 
