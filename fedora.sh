@@ -4,6 +4,8 @@ sudo dnf remove -y gnome-contacts gnome-calendar simple-scan
 sudo dnf install -y @virtualization
 sudo usermod -aG libvirt rob
 sudo usermod -aG dialout rob
+echo ""
+echo ""
 echo "Fedora script complete! Please reboot now."
 
 
