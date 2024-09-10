@@ -3,7 +3,7 @@ sudo apt install -y linux-headers-$(uname -r) remmina putty firefox-esr build-es
 sudo apt install -y virt-manager
 sudo adduser rob libvirt
 sudo adduser rob dialout
-
-
+echo ""
+echo ""
 echo "Debian script finished! Please reboot now."
 
