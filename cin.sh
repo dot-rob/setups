@@ -1,2 +1,11 @@
-sudo apt install -y xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager xfce4-notifyd thunar-archive-plugin xarchiver tilix ristretto parole galculator atril menulibre geany gigolo gvfs gvfs-backends mousepad network-manager-gnome system-config-printer
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y cinnamon-core gnome-calculator gnome-clocks gnome-disk-utility gnome-screenshot gnome-text-editor gnome-themes-extra tilix eog evince celluloid
 sudo apt install -y linux-headers-$(uname -r) remmina putty firefox-esr build-essential iproute2 nmap htop fonts-clear-sans fonts-jetbrains-mono fonts-liberation2 cups zip unzip
+sudo apt install -y virt-manager
+sudo adduser rob libvirt
+sudo adduser rob dialout
+echo ""
+echo ""
+echo "Debian script finished! Please reboot now."
+echo ""
+echo ""
