@@ -1,5 +1,5 @@
 sudo dnf update -y && sudo dnf upgrade -y
-sudo dnf install -y gnome-tweaks gnome-themes-extra tilix tilix-nautilus remmina putty nmap htop liberation-fonts-all mozilla-fira-sans-fonts mozilla-fira-mono-fonts
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-user-theme gnome-tweaks gnome-themes-extra tilix tilix-nautilus remmina putty nmap htop liberation-fonts-all mozilla-fira-sans-fonts mozilla-fira-mono-fonts
 sudo dnf remove -y gnome-contacts gnome-calendar simple-scan
 sudo dnf install -y @virtualization
 echo ""
