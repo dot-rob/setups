@@ -6,6 +6,6 @@ sudo adduser rob dialout
 sudo adduser rob lpadmin
 echo ""
 echo ""
-echo "KDE script finished! Please reboot now."
+echo "Debian KDE script finished! Please reboot now."
 echo ""
 echo ""
