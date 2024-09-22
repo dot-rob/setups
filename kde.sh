@@ -3,6 +3,7 @@ sudo apt install -y linux-headers-$(uname -r) remmina putty build-essential ipro
 sudo apt install -y virt-manager
 sudo adduser rob libvirt
 sudo adduser rob dialout
+sudo adduser rob lpadmin
 echo ""
 echo ""
 echo "KDE script finished! Please reboot now."
