@@ -1,4 +1,4 @@
-sudo apt install -y okular dragonplayer firefox remmina putty nmap htop fonts-jetbrains-mono openprinting-ppds
+sudo apt install -y okular dragonplayer firefox remmina putty nmap htop fonts-jetbrains-mono openfortivpn openprinting-ppds
 sudo apt install -y virt-manager
 sudo adduser rob libvirt
 sudo adduser rob dialout
