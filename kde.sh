@@ -1,7 +1,7 @@
 sudo apt install -y kde-plasma-desktop plasma-nm ark okular gwenview kde-spectacle kcalc kate vlc print-manager polkit-kde-agent-1 pipewire-audio
 sudo apt install -y remmina putty iproute2 nmap htop fonts-liberation2 fonts-jetbrains-mono openprinting-ppds openfortivpn cups zip unzip
-sudo apt install -y virt-manager
-sudo adduser rob libvirt
+echo ""
+echo ""
 sudo adduser rob dialout
 sudo adduser rob lpadmin
 echo ""
