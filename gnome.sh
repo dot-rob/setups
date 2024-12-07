@@ -2,9 +2,6 @@ sudo apt install -y gnome-shell gnome-calculator gnome-clocks gnome-disk-utility
 sudo apt install -y linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip
 echo ""
 echo ""
-sudo adduser rob dialout
-echo ""
-echo ""
 sudo install -d -m 0755 /etc/apt/keyrings
 wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
 echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
