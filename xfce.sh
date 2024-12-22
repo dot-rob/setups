@@ -1,5 +1,4 @@
-sudo apt install -y xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-notifyd xfce4-power-manager xfce4-screenshooter xfce4-taskmanager pipewire-audio thunar-archive-plugin file-roller tilix ristretto parole galculator atril menulibre geany gigolo gvfs gvfs-backends mousepad network-manager-gnome system-config-printer
-sudo apt install -y linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds zip unzip
+sudo apt install -y xfce4 lightdm lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-notifyd xfce4-power-manager xfce4-screenshooter xfce4-taskmanager pipewire-audio thunar-archive-plugin file-roller tilix ristretto parole qalculate-gtk atril menulibre geany gigolo gvfs gvfs-backends mousepad network-manager-gnome system-config-printer linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds zip unzip
 echo ""
 echo ""
 sudo apt install -y virt-manager
