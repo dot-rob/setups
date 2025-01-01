@@ -1,4 +1,4 @@
-sudo apt install -y gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-text-editor gnome-themes-extra gnome-tweaks gnome-weather pipewire-audio nautilus tilix eog evince celluloid build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip
+sudo apt install -y gnome-shell baobab gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-text-editor gnome-themes-extra gnome-tweaks gnome-weather pipewire-audio nautilus tilix eog evince celluloid build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip
 echo ""
 echo ""
 sudo install -d -m 0755 /etc/apt/keyrings
