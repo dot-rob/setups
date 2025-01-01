@@ -1,4 +1,4 @@
-sudo apt install -y gnome-shell baobab gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-sushi gnome-text-editor gnome-themes-extra gnome-tweaks gnome-weather low-memory-monitor pipewire-audio nautilus tilix eog evince celluloid build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip libreoffice-calc libreoffice-writer libreoffice-gnome
+sudo apt install -y gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-text-editor gnome-themes-extra gnome-tweaks low-memory-monitor pipewire-audio nautilus tilix eog evince celluloid build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip
 echo ""
 echo ""
 sudo adduser rob dialout
