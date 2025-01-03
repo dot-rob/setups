@@ -6,7 +6,7 @@ sudo adduser rob libvirt
 sudo adduser rob dialout
 echo ""
 echo ""
-sleep 30
+sleep 10
 echo ""
 echo ""
 sudo install -d -m 0755 /etc/apt/keyrings
