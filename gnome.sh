@@ -1,7 +1,7 @@
 sudo apt install -y gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-text-editor gnome-themes-extra gnome-tweaks pipewire-audio low-memory-monitor build-essential nautilus tilix celluloid eog evince remmina putty iproute2 nmap htop fonts-liberation2 fonts-cantarell cups openprinting-ppds openfortivpn zip unzip
 echo ""
 echo ""
-sudo apt install virt-manager
+sudo apt install -y virt-manager
 sudo adduser rob libvirt
 sudo adduser rob dialout
 echo ""
