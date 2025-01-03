@@ -1,7 +1,12 @@
 sudo apt install -y xfce4 pipewire-audio lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager xfce4-terminal file-roller thunar-archive-plugin ristretto parole atril geany mousepad gigolo gvfs gvfs-backends network-manager-gnome system-config-printer linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds zip unzip
 echo ""
 echo ""
+sudo apt install virt-manager
+sudo adduser rob libvirt
 sudo adduser rob dialout
+echo ""
+echo ""
+sleep 30
 echo ""
 echo ""
 sudo install -d -m 0755 /etc/apt/keyrings
