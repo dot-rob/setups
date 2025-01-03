@@ -1,4 +1,4 @@
-sudo apt install -y xfce4 lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager xfce4-terminal thunar-archive-plugin file-roller ristretto parole atril geany gigolo gvfs gvfs-backends mousepad network-manager-gnome system-config-printer linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds zip unzip
+sudo apt install -y xfce4 pipewire-audio lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager xfce4-terminal thunar-archive-plugin file-roller ristretto parole atril geany gigolo gvfs gvfs-backends mousepad network-manager-gnome system-config-printer linux-headers-$(uname -r) build-essential remmina putty iproute2 nmap htop fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds zip unzip
 echo ""
 echo ""
 sudo adduser rob dialout
