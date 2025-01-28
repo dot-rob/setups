@@ -7,6 +7,6 @@ echo ""
 sleep 10
 echo ""
 echo ""
-echo "Ubuntu Gnome script finished! Please reboot now."
+echo "Ubuntu script finished! Please reboot now."
 echo ""
 echo ""
