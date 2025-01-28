@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-system-monitor gnome-text-editor gnome-themes-extra gnome-tweaks pipewire pipewire-audio build-essential nautilus tilix celluloid eog evince remmina putty nmap htop fonts-cantarell fonts-liberation2 fonts-clear-sans fonts-jetbrains-mono cups openprinting-ppds openfortivpn zip unzip
+sudo apt install -y linux-headers-$(uname -r) gnome-shell gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell-extensions gnome-software gnome-system-monitor gnome-text-editor gnome-themes-extra gnome-tweaks pipewire pipewire-audio build-essential nautilus tilix celluloid eog evince remmina putty nmap htop fonts-cantarell fonts-clear-sans fonts-liberation2 fonts-jetbrains-mono openprinting-ppds openfortivpn zip unzip
 echo ""
 echo ""
 sudo adduser rob dialout
