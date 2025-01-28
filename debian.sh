@@ -15,6 +15,6 @@ sudo apt update -y
 sudo apt install firefox -y
 echo ""
 echo ""
-echo "Debian Gnome script finished! Please reboot now."
+echo "Debian script finished! Please reboot now."
 echo ""
 echo ""
