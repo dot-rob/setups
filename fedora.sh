@@ -1,5 +1,5 @@
 sudo dnf remove -y gnome-calendar gnome-contacts simple-scan
-sudo dnf install -y gnome-themes-extra gnome-tweaks remmina putty mozilla-fira* htop nmap celluloid tilix tilix-nautilus openfortivpn
+sudo dnf install -y gnome-themes-extra gnome-tweaks remmina putty mozilla-fira* htop nmap celluloid openfortivpn
 echo ""
 echo ""
 sudo usermod -aG dialout rob
