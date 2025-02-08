@@ -5,6 +5,9 @@ echo ""
 sudo usermod -aG dialout rob
 echo ""
 echo ""
+sleep 10
+echo ""
+echo ""
 echo "Fedora script finished! Please reboot now."
 echo ""
 echo ""
