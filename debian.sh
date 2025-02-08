@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell gnome-shell-extensions gnome-system-monitor gnome-text-editor gnome-themes-extra gnome-tweaks build-essential celluloid eog evince fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation htop nautilus nmap openfortivpn openprinting-ppdspipewire-audio putty remmina tilix
+sudo apt install -y linux-headers-$(uname -r) gnome-calculator gnome-clocks gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell gnome-shell-extensions gnome-system-monitor gnome-terminal gnome-text-editor gnome-themes-extra gnome-tweaks build-essential celluloid eog evince fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation htop nautilus nmap openfortivpn openprinting-ppds pipewire-audio putty remmina
 echo ""
 echo ""
 sudo adduser rob dialout
