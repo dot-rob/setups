@@ -1,4 +1,4 @@
-sudo apt install -y gnome-shell-extensions gnome-snapshot gnome-tweaks gnome-weather build-essential celluloid evince loupe remmina putty nmap htop nano fonts-clear-sans fonts-jetbrains-mono openfortivpn
+sudo apt install -y gnome-shell-extensions gnome-snapshot gnome-tweaks gnome-weather build-essential celluloid evince fonts-clear-sans fonts-jetbrains-mono htop loupe nano nmap openfortivpn putty remmina
 echo ""
 echo ""
 sudo adduser rob dialout
