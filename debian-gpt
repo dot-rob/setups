@@ -1,6 +1,4 @@
-sudo apt install -y --no-install-recommends \
-    # Core System Components
-    linux-headers-$(uname -r) gdm3 gnome-shell gnome-session \
+sudo apt install -y --no-install-recommends linux-headers-$(uname -r) gdm3 gnome-shell gnome-session \
     
     # Essential GNOME Applications
     gnome-calculator gnome-clocks gnome-control-center gnome-disk-utility \
