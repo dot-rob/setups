@@ -4,7 +4,7 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
-sleep 10
+sleep 3
 echo ""
 echo ""
 sudo install -d -m 0755 /etc/apt/keyrings
