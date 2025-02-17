@@ -2,18 +2,15 @@ sudo apt install -y --no-install-recommends \
     # Core System & GNOME Environment
     linux-headers-$(uname -r) gdm3 gnome-shell gnome-session \
     gnome-calculator gnome-clocks gnome-control-center gnome-disk-utility \
-    gnome-keyring gnome-screenshot gnome-shell-extensions gnome-system-monitor \
+    gnome-keyring gnome-screenshot gnome-shell-extensions gnome-system-monitor network-manager-gnome \
     gnome-terminal gnome-text-editor gnome-themes-extra gnome-tweaks \
     nautilus nautilus-extension-gnome-terminal \
-    
-    # Networking & Remote Access
-    network-manager-gnome nmap putty remmina \
-    
-    # Multimedia & Audio
-    pipewire-audio celluloid eog evince \
+      
+    # Networking, Multimedia & Audio
+    celluloid eog evince pipewire-audio putty remmina \
     
     # System Tools & Utilities
-    bash-completion build-essential htop tlp tlp-rdw \
+    bash-completion build-essential htop nmap tlp tlp-rdw \
     system-config-printer openprinting-ppds \
     p7zip-full unzip zip xz-utils \
     
