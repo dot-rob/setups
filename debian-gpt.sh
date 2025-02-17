@@ -1,29 +1,24 @@
-sudo apt install -y --no-install-recommends linux-headers-$(uname -r) gdm3 gnome-shell gnome-session \
-    
-    # Essential GNOME Applications
+sudo apt install -y --no-install-recommends \
+    # Core System & GNOME Environment
+    linux-headers-$(uname -r) gdm3 gnome-shell gnome-session \
     gnome-calculator gnome-clocks gnome-control-center gnome-disk-utility \
-    gnome-keyring gnome-screenshot gnome-shell-extensions gnome-system-monitor gnome-terminal \
-    gnome-text-editor gnome-themes-extra gnome-tweaks nautilus nautilus-extension-gnome-terminal \
+    gnome-keyring gnome-screenshot gnome-shell-extensions gnome-system-monitor \
+    gnome-terminal gnome-text-editor gnome-themes-extra gnome-tweaks \
+    nautilus nautilus-extension-gnome-terminal \
     
-    # Network and Connectivity
+    # Networking & Remote Access
     network-manager-gnome nmap putty remmina \
     
-    # Audio and Multimedia
+    # Multimedia & Audio
     pipewire-audio celluloid eog evince \
     
-    # System Utilities
+    # System Tools & Utilities
     bash-completion build-essential htop tlp tlp-rdw \
-    
-    # Fonts
-    fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation \
-    
-    # Printing Support
     system-config-printer openprinting-ppds \
-    
-    # File Compression and Archiving
     p7zip-full unzip zip xz-utils \
     
-    # User Directories and Integration
+    # Fonts & User Directories
+    fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation \
     xdg-user-dirs-gtk xdg-utils
 echo ""
 echo ""
