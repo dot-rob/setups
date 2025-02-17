@@ -4,7 +4,7 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
-sleep 10
+sleep 3
 echo ""
 echo ""
 echo "Ubuntu script finished! Please reboot now."
