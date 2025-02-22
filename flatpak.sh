@@ -14,5 +14,6 @@ flatpak install -y flathub org.gnome.Maps
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 flatpak install -y flathub org.remmina.Remmina
+flatpak install flathub io.missioncenter.MissionCenter
 flatpak install flathub org.gnome.Weather
 flatpak install -y flathub app.zen_browser.zen
