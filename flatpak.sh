@@ -1,4 +1,4 @@
-sudo apt install -y flatpak gnome-software-plugin-flatpak
+
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install -y flathub io.github.celluloid_player.Celluloid
