@@ -1,17 +1,11 @@
-sudo apt install flatpak -y gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-flatpak install -y flathub app.zen_browser.zen
-flatpak install -y flathub com.bitwarden.desktop
-flatpak install -y flathub com.google.Chrome
+sudo apt install -y flatpak gnome-software-plugin-flatpak
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install -y flathub io.github.celluloid_player.Celluloid
-flatpak install -y flathub io.missioncenter.MissionCenter
 flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub org.gnome.Calculator
 flatpak install -y flathub org.gnome.clocks
 flatpak install -y flathub org.gnome.Loupe
-flatpak install -y flathub org.gnome.Maps
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gnome.TextEditor
 flatpak install -y flathub org.gnome.Weather
