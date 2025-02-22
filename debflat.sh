@@ -4,7 +4,7 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
-sudo apt install flatpak gnome-software-plugin-flatpak
+sudo apt install -y flatpak gnome-software-plugin-flatpak
 sleep 3
 echo ""
 echo ""
