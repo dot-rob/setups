@@ -5,7 +5,7 @@ sudo adduser rob dialout
 echo ""
 echo ""
 sudo apt install -y flatpak gnome-software-plugin-flatpak
-sleep 3
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 echo ""
 echo ""
 echo "Debian script finished! Please reboot now."
