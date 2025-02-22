@@ -2,7 +2,6 @@ sudo apt install flatpak -y gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub com.bitwarden.desktop
-flatpak install -y flathub com.raggesilver.BlackBox
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install flathub org.gnome.Calculator
 flatpak install flathub org.gnome.clocks
