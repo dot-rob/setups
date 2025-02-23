@@ -6,8 +6,6 @@ sudo adduser rob dialout
 echo ""
 echo ""
 sleep 3
-echo ""
-echo ""
 echo "Debian script finished! Please reboot now."
 echo ""
 echo ""
