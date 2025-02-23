@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell gnome-shell-extensions gnome-system-monitor gnome-themes-extra gnome-tweaks bash-completion build-essential fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation htop nautilus nmap openfortivpn tilix cups openprinting-ppds pipewire-audio tlp tlp-rdw
+sudo apt install -y linux-headers-$(uname -r) gnome-disk-utility gnome-keyring gnome-screenshot gnome-shell gnome-shell-extensions gnome-system-monitor gnome-tweaks bash-completion build-essential fonts-cantarell fonts-clear-sans fonts-jetbrains-mono fonts-liberation htop nautilus nmap tilix cups openprinting-ppds pipewire-audio tlp tlp-rdw
 sudo apt install -y flatpak gnome-software-plugin-flatpak
 echo ""
 echo ""
