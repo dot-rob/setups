@@ -1,5 +1,5 @@
 sudo apt install -y linux-headers-$(uname -r) plasma-desktop sddm bash-completion build-essential cups dolphin fonts-clear-sans fonts-jetbrains-mono fonts-liberation fonts-noto foomatic-db htop konsole nmap openprinting-ppds pipewire-audio tlp tlp-rdw
-sudo apt install -y flatpak gnome-software-plugin-flatpak
+sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
 sudo adduser rob dialout
