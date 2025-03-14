@@ -3,6 +3,7 @@ sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
 sudo adduser rob dialout
+sudo adduser rob lpadmin
 echo ""
 echo ""
 sleep 3
