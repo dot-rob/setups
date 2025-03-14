@@ -3,7 +3,6 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0
 
 flatpak install -y flathub org.kde.akregator
 flatpak install -y flathub org.kde.ark
-#flatpak install -y flathub org.kde.dolphin
 flatpak install -y flathub org.kde.gwenview
 flatpak install -y flathub org.kde.isoimagewriter
 flatpak install -y flathub org.kde.kalk
@@ -11,7 +10,6 @@ flatpak install -y flathub org.kde.kate
 #flatpak install -y flathub org.kde.kcalc
 flatpak install -y flathub org.kde.kclock
 flatpak install -y flathub org.kde.kfind
-#flatpak install -y flathub org.kde.konsole
 flatpak install -y flathub org.kde.kweather
 flatpak install -y flathub org.kde.kwrite
 flatpak install -y flathub org.kde.okular
