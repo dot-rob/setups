@@ -7,7 +7,6 @@ flatpak install -y flathub org.kde.gwenview
 flatpak install -y flathub org.kde.isoimagewriter
 flatpak install -y flathub org.kde.kalk
 flatpak install -y flathub org.kde.kate
-#flatpak install -y flathub org.kde.kcalc
 flatpak install -y flathub org.kde.kclock
 #flatpak install -y flathub org.kde.kfind
 #flatpak install -y flathub org.kde.kweather
