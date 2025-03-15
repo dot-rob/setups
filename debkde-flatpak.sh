@@ -14,7 +14,7 @@ flatpak install -y flathub org.kde.kwrite
 flatpak install -y flathub org.kde.okular
 flatpak install -y flathub org.videolan.VLC
 #flatpak install -y flathub com.rafaelmardojai.Blanket
-flatpak install -y flathub org.angryip.ipscan
+#flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.remmina.Remmina
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
