@@ -3,6 +3,7 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0
 
 flatpak install -y flathub com.bitwarden.desktop
 #flatpak install -y flathub com.google.Chrome
+flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub org.kde.gwenview
 flatpak install -y flathub org.kde.isoimagewriter
