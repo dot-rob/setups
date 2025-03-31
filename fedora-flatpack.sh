@@ -4,5 +4,5 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub io.github.celluloid_player.Celluloid
-#flatpak install -y flathub org.gnome.Papers
+flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
