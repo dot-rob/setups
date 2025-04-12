@@ -8,3 +8,4 @@ flatpak install -y flathub org.gnome.Loupe
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 flatpak install -y flathub org.mozilla.firefox
+flatpak install flathub org.gnome.clocks
