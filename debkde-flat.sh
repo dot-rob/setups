@@ -3,3 +3,5 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install -y flathub org.kde.isoimagewriter
 flatpak install -y flathub org.kde.kalk
 flatpak install -y flathub org.kde.kclock
+flatpak install -y flathub org.videolan.VLC
+flatpak install -y flathub org.mozilla.firefox
