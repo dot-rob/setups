@@ -1,4 +1,4 @@
-sudo apt install -y build-essential fonts-jetbrains-mono isoimagewriter htop kcalc kclock nmap putty remmina
+sudo apt install -y build-essential fonts-jetbrains-mono htop kcalc kclock nmap
 echo ""
 echo ""
 sudo adduser rob dialout
