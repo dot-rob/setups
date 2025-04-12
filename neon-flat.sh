@@ -6,5 +6,3 @@ flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub org.kde.isoimagewriter
 flatpak install -y flathub org.kde.kclock
 flatpak install -y flathub org.kde.kweather
-flatpak install -y flathub org.remmina.Remmina
-flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
