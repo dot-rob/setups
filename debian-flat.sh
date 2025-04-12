@@ -9,4 +9,4 @@ flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.gnome.clocks
-
+flatpak install -y flathub org.gnome.TextEditor
