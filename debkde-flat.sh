@@ -16,4 +16,3 @@ flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.remmina.Remmina
 flatpak install -y flathub org.videolan.VLC
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
-flatpak install -y flathub us.zoom.Zoom
