@@ -1,4 +1,4 @@
-sudo apt install -y build-essential fonts-jetbrains-mono htop isoimagewriter kcalc kclock nmap
+sudo apt install -y build-essential fonts-jetbrains-mono htop isoimagewriter kcalc kclock kweather nmap
 echo ""
 echo ""
 sudo adduser rob dialout
