@@ -15,3 +15,4 @@ flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.remmina.Remmina
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
+flatpak install -y flathub us.zoom.Zoom
