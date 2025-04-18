@@ -3,6 +3,7 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0
 
 flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub org.angryip.ipscan
+flatpak install -y flathub org.geany.Geany
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.remmina.Remmina
