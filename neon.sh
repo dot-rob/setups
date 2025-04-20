@@ -1,4 +1,4 @@
-sudo apt install -y build-essential fonts-jetbrains-mono htop nmap
+sudo apt install -y build-essential fonts-jetbrains-mono htop kwrite nmap
 echo ""
 echo ""
 sudo adduser rob dialout
