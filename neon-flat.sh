@@ -9,8 +9,3 @@ flatpak install -y flathub org.kde.kclock
 flatpak install -y flathub org.kde.kweather
 flatpak install -y flathub org.remmina.Remmina
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
-
-flatpak install -y flathub org.kde.gwenview
-flatpak install -y flathub org.kde.kate
-flatpak install -y flathub org.kde.kfind
-flatpak install -y flathub org.kde.kwrite
