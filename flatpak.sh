@@ -1,5 +1,5 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo flatpak override --filesystem=xdg-config/gtk-3.0
+sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0
 
 #all
 flatpak install -y flathub org.angryip.ipscan
