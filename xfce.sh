@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) xfce4 lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager atril build-essential cups file-roller fonts-liberation geany gigolo gvfs gvfs-backends htop menulibre mousepad network-manager-gnome nmap openprinting-ppds parole pipewire-audio ristretto system-config-printer thunar-archive-plugin tilix tlp tlp-rdw unzip zip
+sudo apt install -y linux-headers-$(uname -r) xfce4 xfce4-goodies lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager atril build-essential cups file-roller fonts-liberation geany gigolo gvfs gvfs-backends htop menulibre mousepad network-manager-gnome nmap openprinting-ppds parole pipewire-audio ristretto system-config-printer thunar-archive-plugin tilix tlp tlp-rdw unzip zip
 sudo apt install -y flatpak
 echo ""
 echo ""
