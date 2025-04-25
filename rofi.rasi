@@ -1,20 +1,25 @@
-/* Orchis Dark Theme Colors */
-* {
-  bg:         #1e222a;  /* Background */
-  fg:         #c4c9d4;  /* Foreground */
-  accent:     #5e81ac;  /* Accent color */
-  urgent:     #bf616a;  /* Urgent color */
-  active:     #a3be8c;  /* Active color */
-  highlight:  #ebcb8b;  /* Highlight color */
-  border:     #3a4150;  /* Border color */
-  sel_bg:     #2a2e38;  /* Selected background */
-  sel_fg:     #ffffff;  /* Selected foreground */
-  font:       "JetBrainsMono Nerd Font 12";
+@theme "default"
+
+/* Orchis Theme Colors (Scoped via @theme) */
+@theme {
+  bg:         #1e222a;
+  fg:         #c4c9d4;
+  accent:     #5e81ac;
+  urgent:     #bf616a;
+  active:     #a3be8c;
+  highlight:  #ebcb8b;
+  border:     #3a4150;
+  sel_bg:     #2a2e38;
+  sel_fg:     #ffffff;
 }
 
-/* Window Configuration */
+/* Font Configuration */
+configuration {
+  font: "JetBrainsMono Nerd Font 12";
+}
+
+/* Window */
 window {
-  transparency: 0;
   background-color: @bg;
   border: 2px;
   border-color: @border;
@@ -25,93 +30,67 @@ window {
   fullscreen: false;
 }
 
-/* Main Box Container */
+/* Main layout */
 mainbox {
   background-color: transparent;
   children: [inputbar, listview];
   spacing: 10px;
 }
 
-/* Input Field */
+/* Inputbar */
 inputbar {
   background-color: @sel_bg;
   text-color: @sel_fg;
   padding: 8px 10px;
-  border: 1px solid @accent;
   children: [prompt, entry];
   spacing: 5px;
 }
 
-/* Prompt (Left Side of Inputbar) */
+/* Prompt */
 prompt {
-  background-color: transparent;
   text-color: @accent;
   margin: 0px 5px 0px 0px;
 }
 
-/* Text Entry Field */
+/* Entry field */
 entry {
-  background-color: transparent;
   text-color: @fg;
   placeholder-color: @highlight;
-  expand: true;
-  cursor: text;
   caret-color: @accent;
 }
 
-/* List View (Search Results) */
+/* Search result list */
 listview {
   background-color: transparent;
   lines: 8;
-  columns: 1;
   spacing: 4px;
-  scrollbar: true;
   fixed-height: true;
-  dynamic: false;
+  scrollbar: true;
 }
 
-/* Matching Text Highlight */
-element-text {
-  background-color: transparent;
-  text-color: @fg;
-  highlight: @highlight;
-}
-
-/* Normal Result */
+/* Normal entries */
 element {
-  background-color: transparent;
   text-color: @fg;
-  border-radius: 4px;
   padding: 6px;
 }
 
-/* Selected Result */
+/* Selected entry */
 element selected {
   background-color: @sel_bg;
   text-color: @sel_fg;
 }
 
-/* Active Result (Marked with Shift+Enter) */
+/* Active entry */
 element active {
   text-color: @active;
 }
 
-/* Urgent Result (e.g., Matches an Alert) */
+/* Urgent entry */
 element urgent {
   text-color: @urgent;
 }
 
-/* Message Bar (e.g., Errors) */
-message {
-  background-color: transparent;
-  border: 1px solid @urgent;
-  padding: 5px;
-  text-color: @urgent;
-}
-
-/* Tooltip */
-tooltip {
-  background-color: @bg;
-  text-color: @fg;
-  border: 1px solid @border;
+/* Highlight matching text */
+element-text {
+  highlight: @highlight;
 }
