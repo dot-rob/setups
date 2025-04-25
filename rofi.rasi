@@ -1,0 +1,117 @@
+/* Declare color variables */
+* {
+  bg:         #1e1e2e;
+  fg:         #cdd6f4;
+  accent:     #89b4fa;
+  urgent:     #f38ba8;
+  active:     #a6e3a1;
+  highlight:  #f9e2af;
+  border:     #45475a;
+  sel_bg:     #313244;
+  sel_fg:     #ffffff;
+  font:       "JetBrainsMono Nerd Font 12";
+}
+
+/* Window configuration */
+window {
+  transparency: 0;
+  background-color: @bg;
+  border: 2px;
+  border-color: @border;
+  padding: 20px;
+  width: 50%;
+  location: center;
+  anchor: center;
+  fullscreen: false;
+}
+
+/* Main box container */
+mainbox {
+  background-color: transparent;
+  children: [inputbar, listview];
+  spacing: 10px;
+}
+
+/* Input field */
+inputbar {
+  background-color: @sel_bg;
+  text-color: @sel_fg;
+  padding: 8px 10px;
+  border: 1px solid @accent;
+  children: [prompt, entry];
+  spacing: 5px;
+}
+
+/* Prompt (left side of inputbar) */
+prompt {
+  background-color: transparent;
+  text-color: @accent;
+  margin: 0px 5px 0px 0px;
+}
+
+/* Text entry field */
+entry {
+  background-color: transparent;
+  text-color: @fg;
+  placeholder-color: @highlight;
+  expand: true;
+  cursor: text;
+  caret-color: @accent;
+}
+
+/* List view (search results) */
+listview {
+  background-color: transparent;
+  lines: 8;
+  columns: 1;
+  spacing: 4px;
+  scrollbar: true;
+  fixed-height: true;
+  dynamic: false;
+}
+
+/* Matching text highlight */
+element-text {
+  background-color: transparent;
+  text-color: @fg;
+  highlight: @highlight;
+}
+
+/* Normal result */
+element {
+  background-color: transparent;
+  text-color: @fg;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+/* Selected result */
+element selected {
+  background-color: @sel_bg;
+  text-color: @sel_fg;
+}
+
+/* Active result (marked with Shift+Enter) */
+element active {
+  text-color: @active;
+}
+
+/* Urgent result (e.g., matches an alert) */
+element urgent {
+  text-color: @urgent;
+}
+
+/* Message bar (e.g., errors) */
+message {
+  background-color: transparent;
+  border: 1px solid @urgent;
+  padding: 5px;
+  text-color: @urgent;
+}
+
+/* Tooltip (rarely shown but used in some themes) */
+tooltip {
+  background-color: @bg;
+  text-color: @fg;
+  border: 1px solid @border;
+}
