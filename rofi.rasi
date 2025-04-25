@@ -1,24 +1,20 @@
-@theme "default"
+/* Declare variables using @name: value; syntax */
+@bg:         #1e222a;
+@fg:         #c4c9d4;
+@accent:     #5e81ac;
+@urgent:     #bf616a;
+@active:     #a3be8c;
+@highlight:  #ebcb8b;
+@border:     #3a4150;
+@sel_bg:     #2a2e38;
+@sel_fg:     #ffffff;
 
-/* Orchis Theme Colors (Scoped via @theme) */
-@theme {
-  bg:         #1e222a;
-  fg:         #c4c9d4;
-  accent:     #5e81ac;
-  urgent:     #bf616a;
-  active:     #a3be8c;
-  highlight:  #ebcb8b;
-  border:     #3a4150;
-  sel_bg:     #2a2e38;
-  sel_fg:     #ffffff;
-}
-
-/* Font Configuration */
+/* Font configuration */
 configuration {
   font: "JetBrainsMono Nerd Font 12";
 }
 
-/* Window */
+/* Window settings */
 window {
   background-color: @bg;
   border: 2px;
@@ -30,14 +26,14 @@ window {
   fullscreen: false;
 }
 
-/* Main layout */
+/* Layout */
 mainbox {
   background-color: transparent;
   children: [inputbar, listview];
   spacing: 10px;
 }
 
-/* Inputbar */
+/* Input bar */
 inputbar {
   background-color: @sel_bg;
   text-color: @sel_fg;
@@ -52,45 +48,43 @@ prompt {
   margin: 0px 5px 0px 0px;
 }
 
-/* Entry field */
+/* Entry */
 entry {
   text-color: @fg;
   placeholder-color: @highlight;
   caret-color: @accent;
 }
 
-/* Search result list */
+/* List view */
 listview {
   background-color: transparent;
   lines: 8;
+  columns: 1;
   spacing: 4px;
   fixed-height: true;
   scrollbar: true;
 }
 
-/* Normal entries */
+/* Elements */
 element {
   text-color: @fg;
   padding: 6px;
 }
 
-/* Selected entry */
 element selected {
   background-color: @sel_bg;
   text-color: @sel_fg;
 }
 
-/* Active entry */
 element active {
   text-color: @active;
 }
 
-/* Urgent entry */
 element urgent {
   text-color: @urgent;
 }
 
-/* Highlight matching text */
+/* Matching text highlight */
 element-text {
   highlight: @highlight;
 }
