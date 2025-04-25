@@ -1,18 +1,18 @@
-/* Declare color variables */
+/* Orchis Dark Theme Colors */
 * {
-  bg:         #1e1e2e;
-  fg:         #cdd6f4;
-  accent:     #89b4fa;
-  urgent:     #f38ba8;
-  active:     #a6e3a1;
-  highlight:  #f9e2af;
-  border:     #45475a;
-  sel_bg:     #313244;
-  sel_fg:     #ffffff;
+  bg:         #1e222a;  /* Background */
+  fg:         #c4c9d4;  /* Foreground */
+  accent:     #5e81ac;  /* Accent color */
+  urgent:     #bf616a;  /* Urgent color */
+  active:     #a3be8c;  /* Active color */
+  highlight:  #ebcb8b;  /* Highlight color */
+  border:     #3a4150;  /* Border color */
+  sel_bg:     #2a2e38;  /* Selected background */
+  sel_fg:     #ffffff;  /* Selected foreground */
   font:       "JetBrainsMono Nerd Font 12";
 }
 
-/* Window configuration */
+/* Window Configuration */
 window {
   transparency: 0;
   background-color: @bg;
@@ -25,14 +25,14 @@ window {
   fullscreen: false;
 }
 
-/* Main box container */
+/* Main Box Container */
 mainbox {
   background-color: transparent;
   children: [inputbar, listview];
   spacing: 10px;
 }
 
-/* Input field */
+/* Input Field */
 inputbar {
   background-color: @sel_bg;
   text-color: @sel_fg;
@@ -42,14 +42,14 @@ inputbar {
   spacing: 5px;
 }
 
-/* Prompt (left side of inputbar) */
+/* Prompt (Left Side of Inputbar) */
 prompt {
   background-color: transparent;
   text-color: @accent;
   margin: 0px 5px 0px 0px;
 }
 
-/* Text entry field */
+/* Text Entry Field */
 entry {
   background-color: transparent;
   text-color: @fg;
@@ -59,7 +59,7 @@ entry {
   caret-color: @accent;
 }
 
-/* List view (search results) */
+/* List View (Search Results) */
 listview {
   background-color: transparent;
   lines: 8;
@@ -70,14 +70,14 @@ listview {
   dynamic: false;
 }
 
-/* Matching text highlight */
+/* Matching Text Highlight */
 element-text {
   background-color: transparent;
   text-color: @fg;
   highlight: @highlight;
 }
 
-/* Normal result */
+/* Normal Result */
 element {
   background-color: transparent;
   text-color: @fg;
@@ -85,23 +85,23 @@ element {
   padding: 6px;
 }
 
-/* Selected result */
+/* Selected Result */
 element selected {
   background-color: @sel_bg;
   text-color: @sel_fg;
 }
 
-/* Active result (marked with Shift+Enter) */
+/* Active Result (Marked with Shift+Enter) */
 element active {
   text-color: @active;
 }
 
-/* Urgent result (e.g., matches an alert) */
+/* Urgent Result (e.g., Matches an Alert) */
 element urgent {
   text-color: @urgent;
 }
 
-/* Message bar (e.g., errors) */
+/* Message Bar (e.g., Errors) */
 message {
   background-color: transparent;
   border: 1px solid @urgent;
@@ -109,7 +109,7 @@ message {
   text-color: @urgent;
 }
 
-/* Tooltip (rarely shown but used in some themes) */
+/* Tooltip */
 tooltip {
   background-color: @bg;
   text-color: @fg;
