@@ -1,0 +1,203 @@
+/* Rofi Theme Template with Various Color Schemes */
+
+* {
+    /* Active Color Scheme */
+
+    /* Nord (Active) */
+    normal-background: #2E3440;
+    normal-foreground: #D8DEE9;
+    active-background: #5E81AC;
+    active-foreground: #D8DEE9;
+    urgent-background: #BF616A;
+    urgent-foreground: #2E3440;
+
+    /* Alternate Color Schemes Below (Comment Nord, Uncomment Other) */
+
+    /* Arc Dark */
+    // normal-background: #2f343f;
+    // normal-foreground: #d3dae3;
+    // active-background: #3f4753;
+    // active-foreground: #ffffff;
+    // urgent-background: #e57373;
+    // urgent-foreground: #2f343f;
+
+    /* One Dark */
+    // normal-background: #282c34;
+    // normal-foreground: #abb2bf;
+    // active-background: #3e4451;
+    // active-foreground: #abb2bf;
+    // urgent-background: #e06c75;
+    // urgent-foreground: #282c34;
+
+    /* Material Dark */
+    // normal-background: #121212;
+    // normal-foreground: #e0e0e0;
+    // active-background: #1f1f1f;
+    // active-foreground: #ffffff;
+    // urgent-background: #cf6679;
+    // urgent-foreground: #121212;
+
+    /* Gruvbox Dark */
+    // normal-background: #282828;
+    // normal-foreground: #ebdbb2;
+    // active-background: #504945;
+    // active-foreground: #ebdbb2;
+    // urgent-background: #cc241d;
+    // urgent-foreground: #282828;
+}
+
+/* Configuration Settings */
+configuration {
+    modi: "window,run,drun";
+    font: "Fira Mono 12";
+    location: 0;
+    anchor: center;
+    show-icons: true;
+    icon-theme: "tela-rob";
+    fixed-num-lines: true;
+    display-window: "Windows";
+    display-run: "Run";
+    display-drun: "Apps";
+    disable-history: true;
+    sidebar-mode: false;
+    scroll-method: 0;
+}
+
+/* Window Styling */
+#window {
+    background-color: @normal-background;
+    border: 3px;
+    border-radius: 6px;
+    border-color: @active-background;
+    padding: 12px;
+}
+
+#mainbox {
+    border: 0px;
+    padding: 0px;
+}
+
+#message {
+    border: 0px;
+    border-color: @active-background;
+    padding: 1px;
+}
+
+#textbox {
+    text-color: @normal-foreground;
+}
+
+#textbox-prompt-colon {
+    str: ":";
+    margin: 0px 4px 0px 0px;
+    text-color: @normal-foreground;
+}
+
+/* List View Styling */
+#listview {
+    fixed-height: true;
+    lines: 16;
+    columns: 1;
+    border: 0px;
+    border-color: @active-background;
+    spacing: 2px;
+    scrollbar: false;
+    padding: 2px 0px 0px;
+}
+
+#element {
+    border: 0px;
+    padding: 4px;
+}
+
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color: @normal-foreground;
+}
+
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}
+
+#element.normal.active {
+    background-color: @active-background;
+    text-color: @normal-foreground;
+}
+
+#element.selected.normal {
+    background-color: @active-background;
+    text-color: @normal-foreground;
+}
+
+#element.selected.urgent {
+    background-color: @urgent-background;
+    text-color: @normal-foreground;
+}
+
+#element.selected.active {
+    background-color: @active-background;
+    text-color: @normal-foreground;
+}
+
+#element.alternate.normal {
+    background-color: @normal-background;
+    text-color: @normal-foreground;
+}
+
+#element.alternate.urgent {
+    background-color: @urgent-background;
+    text-color: @normal-foreground;
+}
+
+#element.alternate.active {
+    background-color: @active-background;
+    text-color: @normal-foreground;
+}
+
+/* Input and Scrollbar Styling */
+#inputbar {
+    spacing: 0px;
+    text-color: @normal-foreground;
+    padding: 1px;
+    children: [ prompt, textbox-prompt-colon, entry, case-indicator ];
+}
+
+#case-indicator {
+    spacing: 0px;
+    text-color: @normal-foreground;
+}
+
+#scrollbar {
+    width: 2px;
+    border: 0px;
+    handle-width: 8px;
+    padding: 0px;
+}
+
+/* Entry and Button Styling */
+#entry {
+    placeholder: "Enter Search Terms Here";
+    spacing: 0px;
+    text-color: @normal-foreground;
+}
+
+#prompt {
+    spacing: 0px;
+    text-color: @normal-foreground;
+}
+
+#button {
+    spacing: 0px;
+    text-color: @normal-foreground;
+}
+
+#button.selected {
+    background-color: @active-background;
+    text-color: @normal-foreground;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
+}
