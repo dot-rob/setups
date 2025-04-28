@@ -19,3 +19,15 @@ flatpak install -y flathub org.gnome.Loupe
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gnome.TextEditor
 flatpak install -y flathub org.gnome.Weather
+
+#kde
+flatpak install -y flathub org.kde.gwenview
+flatpak install -y flathub org.kde.isoimagewriter
+flatpak install -y flathub org.kde.kate
+flatpak install -y flathub org.kde.kcalc
+flatpak install -y flathub org.kde.kclock
+flatpak install -y flathub org.kde.kfind
+flatpak install -y flathub org.kde.kweather
+flatpak install -y flathub org.kde.kwrite
+flatpak install -y flathub org.kde.okular
+flatpak install -y flathub org.videolan.VLC
