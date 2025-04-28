@@ -4,7 +4,6 @@ sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=/home/rob/.themes/
 
 #all
-flatpak install -y flathub org.angryip.ipscan
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.remmina.Remmina
 flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
