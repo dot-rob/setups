@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) plasma-desktop sddm ark bash-completion build-essential cups dolphin fonts-jetbrains-mono foomatic-db htop kde-spectacle konsole nmap pipewire-audio polkit-kde-agent-1 print-manager tlp tlp-rdw
+sudo apt install -y linux-headers-$(uname -r) plasma-desktop sddm ark bash-completion build-essential cups dolphin fonts-jetbrains-mono foomatic-db htop kde-spectacle konsole nmap openfortivpn pipewire-audio polkit-kde-agent-1 print-manager tlp tlp-rdw
 sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
