@@ -1,4 +1,4 @@
-sudo apt remove -y gnome-calendar hypnotix matrix mintchat onboard seahorse simple-scan sticky thingy transmission-gtk warpinator webapp-manager
+sudo apt remove -y gnome-calendar hypnotix mintchat onboard seahorse simple-scan sticky thingy transmission-gtk warpinator webapp-manager
 sudo apt install -y htop nmap putty remmina spotify-client tilix
 echo ""
 echo ""
