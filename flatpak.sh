@@ -1,12 +1,10 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo flatpak override --filesystem=xdg-config/gtk-3.0
-sudo flatpak override --filesystem=xdg-config/gtk-4.0
+#sudo flatpak override --filesystem=xdg-config/gtk-3.0
+#sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=/home/rob/.themes/
 
 #all
 flatpak install -y flathub org.mozilla.firefox
-flatpak install -y flathub org.remmina.Remmina
-flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 
 #gnome
 flatpak install -y flathub com.rafaelmardojai.Blanket
