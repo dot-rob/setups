@@ -2,12 +2,11 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 sudo flatpak override --filesystem=/home/rob/.themes/
 
 #all
-flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub com.spotify.Client
+flatpak install -y flathub org.mozilla.firefox
 
 #gnome
-
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install -y flathub io.github.celluloid_player.Celluloid
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
