@@ -3,7 +3,6 @@ sudo flatpak override --filesystem=/home/rob/.themes/
 
 #all
 flatpak install -y flathub com.discordapp.Discord
-flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub org.mozilla.firefox
 
 #gnome
