@@ -6,6 +6,6 @@ sudo adduser rob dialout
 echo ""
 echo ""
 sleep 3
-echo "Debian GNOME script finished! Please reboot now."
+echo "Debian script finished! Please reboot now."
 echo ""
 echo ""
