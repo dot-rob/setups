@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) cinnamon gnome-screenshot gnome-text-editor gnome-weather bash-completion build-essential cups fonts-liberation2 foomatic-db htop low-memory-monitor nmap openfortivpn pipewire-audio putty remmina tilix tlp tlp-rdw
+sudo apt install -y linux-headers-$(uname -r) cinnamon gnome-screenshot gnome-text-editor bash-completion build-essential cups fonts-liberation2 foomatic-db htop low-memory-monitor nmap openfortivpn pipewire-audio putty remmina tilix tlp tlp-rdw
 sudo apt install -y flatpak gnome-software-plugin-flatpak
 echo ""
 echo ""
