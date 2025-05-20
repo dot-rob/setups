@@ -1,4 +1,5 @@
 sudo apt remove -y gnome-calendar hypnotix mintchat onboard seahorse simple-scan sticky thingy transmission-gtk warpinator webapp-manager
+sudo apt purge -y thunderbird
 sudo apt install -y geany htop nmap putty remmina spotify-client tilix
 echo ""
 echo ""
