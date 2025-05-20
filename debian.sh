@@ -5,6 +5,9 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
+sudo apt autoremove -y
+echo ""
+echo ""
 sleep 3
 echo "Debian script finished! Please reboot now."
 echo ""
