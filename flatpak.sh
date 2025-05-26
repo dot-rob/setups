@@ -11,7 +11,7 @@ flatpak install -y flathub org.gnome.TextEditor
 flatpak install -y flathub org.gnome.Weather
 flatpak install -y flathub org.libreoffice.LibreOffice
 flatpak install -y flathub org.mozilla.firefox
-flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 
+flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 sudo flatpak override --env=GTK_THEME=Adwaita-dark
 sudo flatpak override --filesystem=/home/rob/.themes/
