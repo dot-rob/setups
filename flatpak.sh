@@ -4,6 +4,7 @@ flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub com.rafaelmardojai.Blanket
 flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub io.github.celluloid_player.Celluloid
+flatpak install -y flathub io.github.shiftey.Desktop
 flatpak install -y flathub org.gnome.Calculator
 flatpak install -y flathub org.gnome.clocks
 flatpak install -y flathub org.gnome.Loupe
