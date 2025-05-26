@@ -9,6 +9,7 @@ flatpak install -y flathub org.gnome.Loupe
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gnome.TextEditor
 flatpak install -y flathub org.gnome.Weather
+flatpak install -y flathub org.libreoffice.LibreOffice
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 
