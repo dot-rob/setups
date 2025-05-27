@@ -9,6 +9,6 @@ sudo apt autoremove -y
 echo ""
 echo ""
 sleep 3
-echo "Debian script finished! Please reboot now."
+echo "Debian GNOME script finished! Please reboot now."
 echo ""
 echo ""
