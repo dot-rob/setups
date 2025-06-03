@@ -6,6 +6,6 @@ sudo adduser rob dialout
 echo ""
 echo ""
 sleep 3
-echo "Debian KDE script finished! Please reboot now."
+echo "KDE Neon script finished! Please reboot now."
 echo ""
 echo ""
