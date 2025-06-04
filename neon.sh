@@ -1,4 +1,4 @@
-sudo apt install -y build-essential fonts-jetbrains-mono htop isoimagewriter kcalc kclock nmap openfortivpn putty remmina
+sudo apt install -y build-essential htop isoimagewriter kcalc kclock nmap openfortivpn putty remmina
 sudo apt autoremove -y
 echo ""
 echo ""
