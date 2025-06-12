@@ -11,6 +11,7 @@ flatpak install -y flathub io.github.celluloid_player.Celluloid
 flatpak install -y flathub org.gnome.Calculator
 flatpak install -y flathub org.gnome.clocks
 flatpak install -y flathub org.gnome.Loupe
+flatpak install -y flathub org.gnome.meld
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gnome.TextEditor
 flatpak install -y flathub org.gnome.Weather
