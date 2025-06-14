@@ -16,7 +16,6 @@ flatpak install -y flathub org.gnome.Loupe
 flatpak install -y flathub org.gnome.meld
 flatpak install -y flathub org.gnome.Papers
 flatpak install -y flathub org.gnome.TextEditor
-flatpak install -y flathub org.gnome.Weather
 
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 sudo flatpak override --env=GTK_THEME=Adwaita-dark
@@ -31,6 +30,5 @@ flatpak install -y flathub org.kde.kate
 flatpak install -y flathub org.kde.kcalc
 flatpak install -y flathub org.kde.kclock
 flatpak install -y flathub org.kde.kfind
-flatpak install -y flathub org.kde.kweather
 flatpak install -y flathub org.kde.okular
 flatpak install -y flathub org.videolan.VLC
