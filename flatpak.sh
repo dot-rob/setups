@@ -19,3 +19,14 @@ flatpak install -y flathub org.gnome.Weather
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 sudo flatpak override --env=GTK_THEME=Adwaita-dark
 sudo flatpak override --filesystem=/home/rob/.themes/
+
+#kde
+flatpak install -y flathub org.kde.gwenview
+flatpak install -y flathub org.kde.isoimagewriter
+flatpak install -y flathub org.kde.kate
+flatpak install -y flathub org.kde.kcalc
+flatpak install -y flathub org.kde.kclock
+flatpak install -y flathub org.kde.kfind
+flatpak install -y flathub org.kde.kweather
+flatpak install -y flathub org.kde.okular
+flatpak install -y flathub org.videolan.VLC
