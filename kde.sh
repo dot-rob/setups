@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) plasma-desktop sddm ark bash-completion build-essential cups dolphin firefox-esr fonts-liberation2 foomatic-db gwenview htop kate kcalc kde-spectacle konsole low-memory-monitor nmap okular openfortivpn pipewire pipewire-pulse pipewire-audio pkexec print-manager putty remmina vlc wireplumber
+sudo apt install -y linux-headers-$(uname -r) plasma-desktop sddm ark bash-completion build-essential cups dolphin fonts-liberation2 foomatic-db htop kde-spectacle konsole low-memory-monitor nmap openfortivpn pipewire pipewire-pulse pipewire-audio pkexec print-manager putty remmina wireplumber
 sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
