@@ -1,4 +1,6 @@
 sudo apt install -y build-essential htop isoimagewriter kcalc kclock nmap openfortivpn putty remmina
+echo ""
+echo ""
 sudo apt autoremove -y
 echo ""
 echo ""
