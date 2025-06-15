@@ -12,6 +12,6 @@ sudo adduser rob dialout
 echo ""
 echo ""
 sleep 3
-echo "Debian XFCE script finished! Please reboot now."
+echo "Debian CINNAMON script finished! Please reboot now."
 echo ""
 echo ""
