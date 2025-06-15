@@ -1,0 +1,17 @@
+sudo apt install -y linux-headers-$(uname -r) lightdm-gtk-greeter lightdm-gtk-greeter-settings cinnamon
+#atril bash-completion build-essential cups fonts-liberation2 foomatic-db geany gigolo gvfs gvfs-backends htop low-memory-monitor mousepad network-manager-gnome nmap openfortivpn parole pipewire pipewire-pulse pipewire-audio putty qalculate-gtk remmina ristretto rofi system-config-printer thunar-archive-plugin wireplumber
+echo ""
+echo ""
+sudo apt install -y flatpak
+echo ""
+echo ""
+sudo apt autoremove -y
+echo ""
+echo ""
+sudo adduser rob dialout
+echo ""
+echo ""
+sleep 3
+echo "Debian XFCE script finished! Please reboot now."
+echo ""
+echo ""
