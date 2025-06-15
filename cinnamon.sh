@@ -2,7 +2,7 @@ sudo apt install -y linux-headers-$(uname -r) bash-completion build-essential ci
 #atril gnome-screenshot mousepad network-manager-gnome nmap openfortivpn parole qalculate-gtk ristretto system-config-printer
 echo ""
 echo ""
-sudo apt install -y flatpak
+#sudo apt install -y flatpak
 echo ""
 echo ""
 sudo apt autoremove -y
