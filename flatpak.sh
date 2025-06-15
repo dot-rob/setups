@@ -18,7 +18,7 @@ flatpak install -y flathub org.gnome.TextEditor
 
 flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 sudo flatpak override --env=GTK_THEME=Adwaita-dark
-sudo flatpak override --filesystem=/home/rob/.themes/
+#sudo flatpak override <package identifier> --filesystem=/home/rob/.themes/
 
 ##########################################
 
