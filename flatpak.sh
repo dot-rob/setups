@@ -2,7 +2,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 #all
 #flatpak install -y flathub com.discordapp.Discord
-flatpak install -y flathub org.libreoffice.LibreOffice
+#flatpak install -y flathub org.libreoffice.LibreOffice
 flatpak install -y flathub org.mozilla.firefox
 
 ##########################################
