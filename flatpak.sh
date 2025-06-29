@@ -7,6 +7,15 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 ##########################################
 
+#kde
+#flatpak install -y flathub org.kde.isoimagewriter
+#flatpak install -y flathub org.kde.kate
+#flatpak install -y flathub org.kde.kcalc
+#flatpak install -y flathub org.kde.kclock
+#flatpak install -y flathub org.videolan.VLC
+
+##########################################
+
 #gnome
 #flatpak install -y flathub com.rafaelmardojai.Blanket
 #flatpak install -y flathub io.github.celluloid_player.Celluloid
@@ -21,12 +30,3 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 #sudo flatpak override <package identifier> --filesystem=/home/rob/.themes/
 
 ##########################################
-
-#kde
-#flatpak install -y flathub org.kde.gwenview
-#flatpak install -y flathub org.kde.isoimagewriter
-#flatpak install -y flathub org.kde.kate
-#flatpak install -y flathub org.kde.kcalc
-#flatpak install -y flathub org.kde.kclock
-#flatpak install -y flathub org.kde.okular
-#flatpak install -y flathub org.videolan.VLC
