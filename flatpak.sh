@@ -28,5 +28,3 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 #flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
 #sudo flatpak override --env=GTK_THEME=Adwaita-dark
 #sudo flatpak override <package identifier> --filesystem=/home/rob/.themes/
-
-##########################################
