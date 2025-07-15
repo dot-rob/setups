@@ -1,4 +1,4 @@
-sudo apt install -y gnome-tweaks gnome-weather bash-completion build-essential celluloid evince htop loupe nmap openfortivpn putty remmina tilix
+sudo apt install -y gnome-tweaks gnome-weather bash-completion build-essential celluloid evince htop loupe nmap openfortivpn putty remmina
 echo ""
 echo ""
 sudo adduser rob dialout
