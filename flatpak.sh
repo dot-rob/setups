@@ -1,6 +1,7 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #all
+#flatpak install -y flathub com.bitwarden.desktop
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub org.libreoffice.LibreOffice
 flatpak install -y flathub org.mozilla.firefox
