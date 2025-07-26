@@ -11,6 +11,7 @@ flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 ##########################################
 
 #kde
+#flatpak install -y flathub org.kde.ark
 #flatpak install -y flathub org.kde.gwenview
 #flatpak install -y flathub org.kde.isoimagewriter
 #flatpak install -y flathub org.kde.kate
