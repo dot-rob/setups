@@ -16,6 +16,7 @@ flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 #flatpak install -y flathub org.kde.kate
 #flatpak install -y flathub org.kde.kcalc
 #flatpak install -y flathub org.kde.kclock
+#flatpak install -y flathub org.kde.okular
 #flatpak install -y flathub org.videolan.VLC
 
 ##########################################
