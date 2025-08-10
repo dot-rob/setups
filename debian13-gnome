@@ -1,4 +1,4 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
+sudo apt install -y linux-headers-$(uname -r) gnome-keyring gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
 bash-completion \
 blanket \
 build-essential \
