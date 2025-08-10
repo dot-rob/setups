@@ -1,27 +1,30 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-shell gnome-shell-extensions cups nautilus pipewire pipewire-pulse pipewire-audio wireplumber /
-sudo apt install -y bash-completion /
-blanket /
-build-essential /
-celluloid /
-firefox-esr /
-gnome-calculator /
-gnome-clocks /
-gnome-disk-utility / 
-gnome-keyring /
-gnome-screenshot /
-gnome-system-monitor / 
-gnome-text-editor /
-gnome-themes-extra /
-gnome-tweaks /
-gnome-weather /
-htop /
-libreoffice /
-loupe /
-nmap /
-openfortivpn /
-papers /
-putty /
-remmina /
+sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
+bash-completion \
+blanket \
+build-essential \
+cups \
+celluloid \
+firefox-esr \
+gnome-calculator \
+gnome-clocks \
+gnome-disk-utility \ 
+gnome-keyring \
+gnome-screenshot \
+gnome-shell-extensions \
+gnome-system-monitor \ 
+gnome-text-editor \
+gnome-themes-extra \
+gnome-tweaks \
+gnome-weather \
+htop \
+libreoffice \
+loupe \
+nautilus \
+nmap \
+openfortivpn \
+papers \
+putty \
+remmina \
 tilix
 echo ""
 echo ""
