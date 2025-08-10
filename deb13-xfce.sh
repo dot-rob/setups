@@ -24,7 +24,7 @@ xfce4-netload-plugin \
 xfce4-power-manager \
 xfce4-screenshooter \
 xfce4-taskmanager \
-xfce4-terminal /
+xfce4-terminal
 echo ""
 echo ""
 sudo apt autoremove -y
