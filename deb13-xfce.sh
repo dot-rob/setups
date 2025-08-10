@@ -1,4 +1,30 @@
-sudo apt install -y linux-headers-$(uname -r) xfce4 lightdm-gtk-greeter-settings xfce4-battery-plugin xfce4-netload-plugin xfce4-power-manager xfce4-screenshooter xfce4-taskmanager xfce4-terminal atril bash-completion build-essential cups geany gigolo gvfs gvfs-backends network-manager-gnome mousepad network-manager-gnome nmap openfortivpn pipewire pipewire-pulse pipewire-audio putty qalculate-gtk remmina ristretto rofi system-config-printer thunar-archive-plugin wireplumber
+sudo apt install -y linux-headers-$(uname -r) xfce4 pipewire pipewire-pulse pipewire-audio wireplumber \
+atril \ 
+bash-completion \
+build-essential \
+cups \
+geany \
+gigolo \
+gvfs \
+gvfs-backends \
+lightdm-gtk-greeter-settings \
+mousepad \
+network-manager-gnome \
+nmap \
+openfortivpn \
+putty \
+qalculate-gtk \
+remmina \
+ristretto \
+rofi \
+system-config-printer \
+thunar-archive-plugin \
+xfce4-battery-plugin \
+xfce4-netload-plugin \
+xfce4-power-manager \
+xfce4-screenshooter \
+xfce4-taskmanager \
+xfce4-terminal /
 echo ""
 echo ""
 sudo apt autoremove -y
