@@ -1,5 +1,5 @@
 sudo apt install -y linux-headers-$(uname -r) gnome-shell gnome-shell-extensions cups nautilus pipewire pipewire-pulse pipewire-audio wireplumber /
-bash-completion /
+sudo apt install -y bash-completion /
 blanket /
 build-essential /
 celluloid /
