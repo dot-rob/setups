@@ -1,5 +1,5 @@
 sudo apt install -y linux-headers-$(uname -r) xfce4 pipewire pipewire-pulse pipewire-audio wireplumber \
-atril \ 
+atril \
 bash-completion \
 build-essential \
 cups \
