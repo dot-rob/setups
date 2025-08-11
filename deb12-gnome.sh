@@ -1,7 +1,24 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-shell gnome-shell-extensions gnome-shell-extension-arc-menu gnome-shell-extension-dash-to-panel gnome-disk-utility gnome-keyring gnome-screenshot gnome-system-monitor gnome-themes-extra gnome-tweaks bash-completion build-essential cups foomatic-db htop low-memory-monitor nautilus nmap openfortivpn pipewire pipewire-pulse pipewire-audio tilix wireplumber
+sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
+bash-completion \
+build-essential \
+cups \
+foomatic-db \
+gnome-disk-utility \
+gnome-keyring \
+gnome-screenshot \
+gnome-shell-extensions \
+gnome-shell-extension-dash-to-panel \
+gnome-system-monitor \
+gnome-themes-extra \
+gnome-tweaks \
+htop \
+nautilus \
+nmap \
+openfortivpn \
+tilix
 echo ""
 echo ""
-sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
+#sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
 echo ""
 echo ""
 sudo apt autoremove -y
