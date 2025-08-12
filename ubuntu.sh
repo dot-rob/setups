@@ -1,6 +1,5 @@
 sudo apt install -y build-essential \
 celluloid \
-gnome-shell-extensions \
 gnome-tweaks \
 gnome-weather \
 htop \
