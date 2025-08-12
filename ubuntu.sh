@@ -8,7 +8,7 @@ loupe \
 nmap \
 openfortivpn \
 putty \
-remmina \
+remmina
 echo ""
 echo ""
 sudo apt autoremove -y
