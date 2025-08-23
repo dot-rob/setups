@@ -1,5 +1,5 @@
 sudo apt update -y
-sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-audio wireplumber \
+sudo apt install -y gnome-shell pipewire pipewire-audio wireplumber \
 bash-completion \
 build-essential \
 cups \
@@ -15,6 +15,7 @@ gnome-text-editor \
 gnome-themes-extra \
 gnome-tweaks \
 htop \
+linux-headers-amd64 \
 nautilus \
 nmap \
 openfortivpn \
