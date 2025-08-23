@@ -20,7 +20,6 @@ unattended-upgrades
 echo ""
 echo ""
 sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 echo ""
 echo ""
 sudo apt-get -y autoremove --purge
