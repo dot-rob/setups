@@ -1,3 +1,4 @@
+sudo apt update -y
 sudo apt install -y build-essential \
 celluloid \
 gnome-tweaks \
