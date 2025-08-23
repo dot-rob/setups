@@ -39,5 +39,3 @@ echo ""
 echo ""
 sleep 3
 echo "Debian GNOME script finished! Please reboot now."
-echo ""
-echo ""
