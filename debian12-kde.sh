@@ -16,7 +16,7 @@ okular \
 openfortivpn \
 pkexec \
 print-manager \
-vlc \
+vlc
 echo ""
 echo ""
 sudo apt install -y flatpak plasma-discover-backend-flatpak
