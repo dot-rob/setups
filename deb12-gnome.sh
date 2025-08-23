@@ -3,6 +3,7 @@ sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-audi
 bash-completion \
 build-essential \
 cups \
+glome-clocks \
 gnome-disk-utility \
 gnome-keyring \
 gnome-shell-extensions \
