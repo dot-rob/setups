@@ -5,6 +5,7 @@ build-essential \
 cups \
 eog \
 evince \
+gnome-calc \
 gnome-clocks \
 gnome-disk-utility \
 gnome-keyring \
@@ -19,7 +20,6 @@ linux-headers-amd64 \
 nautilus \
 nmap \
 openfortivpn \
-qalculate-gtk \
 tilix \
 unattended-upgrades
 echo ""
