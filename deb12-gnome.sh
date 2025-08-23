@@ -19,9 +19,11 @@ tilix
 echo ""
 echo ""
 sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 echo ""
 echo ""
-sudo apt autoremove -y
+sudo apt-get -y autoremove --purge
+sudo apt-get -y clean
 echo ""
 echo ""
 sudo adduser rob dialout
