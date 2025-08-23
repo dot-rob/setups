@@ -7,5 +7,4 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
-sleep 3
 echo "KDE Neon script finished! Please reboot now."
