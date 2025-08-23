@@ -1,5 +1,5 @@
 sudo apt update -y
-sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-audio wireplumber \
+sudo apt install -y gnome-shell pipewire pipewire-audio wireplumber \
 bash-completion \
 blanket \
 build-essential \
@@ -18,6 +18,7 @@ gnome-tweaks \
 gnome-weather \
 htop \
 libreoffice \
+linux-headers-amd64 \
 loupe \
 nautilus \
 nmap \
