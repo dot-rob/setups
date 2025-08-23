@@ -6,7 +6,6 @@ build-essential \
 cups \
 celluloid \
 firefox-esr \
-gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
 gnome-keyring \
@@ -23,6 +22,7 @@ loupe \
 nautilus \
 nmap \
 openfortivpn \
+qalculate-gtk \
 papers \
 putty \
 remmina \
