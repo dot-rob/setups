@@ -2,7 +2,6 @@ sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-puls
 bash-completion \
 build-essential \
 cups \
-foomatic-db \
 gnome-disk-utility \
 gnome-keyring \
 gnome-screenshot \
