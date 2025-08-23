@@ -7,6 +7,7 @@ cups \
 celluloid \
 firefox-esr \
 gnome-clocks \
+gnome-calculator \
 gnome-disk-utility \
 gnome-keyring \
 gnome-shell-extensions \
@@ -23,7 +24,6 @@ loupe \
 nautilus \
 nmap \
 openfortivpn \
-qalculate-gtk \
 papers \
 putty \
 remmina \
