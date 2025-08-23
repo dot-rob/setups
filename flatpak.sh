@@ -9,12 +9,12 @@ flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 ##########################################
 
 #gnome
-flatpak install -y flathub com.rafaelmardojai.Blanket
-flatpak install -y flathub io.github.celluloid_player.Celluloid
+#flatpak install -y flathub com.rafaelmardojai.Blanket
+#flatpak install -y flathub io.github.celluloid_player.Celluloid
 #flatpak install -y flathub org.gnome.Loupe
 #flatpak install -y flathub org.gnome.Papers
-flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
-sudo flatpak override --env=GTK_THEME=Adwaita-dark
+#flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
+#sudo flatpak override --env=GTK_THEME=Adwaita-dark
 
 
 ##########################################
@@ -23,7 +23,7 @@ sudo flatpak override --env=GTK_THEME=Adwaita-dark
 #flatpak install -y flathub org.kde.ark
 #flatpak install -y flathub org.kde.dolphin
 #flatpak install -y flathub org.kde.gwenview
-#flatpak install -y flathub org.kde.isoimagewriter
+flatpak install -y flathub org.kde.isoimagewriter
 #flatpak install -y flathub org.kde.kate
 #flatpak install -y flathub org.kde.kcalc
 #flatpak install -y flathub org.kde.kclock
