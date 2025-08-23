@@ -14,6 +14,7 @@ htop \
 nautilus \
 nmap \
 openfortivpn \
+qalculate-gtk \
 tilix \
 unattended-upgrades
 echo ""
