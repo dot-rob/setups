@@ -22,7 +22,6 @@ sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gno
 echo ""
 echo ""
 sudo apt -y autoremove --purge
-sudo apt -y clean
 echo ""
 echo ""
 sudo adduser rob dialout
