@@ -1,3 +1,4 @@
+sudo apt update -y
 sudo apt install -y build-essential htop isoimagewriter kcalc kclock nmap openfortivpn putty remmina
 echo ""
 echo ""
