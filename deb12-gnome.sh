@@ -8,6 +8,7 @@ gnome-keyring \
 gnome-shell-extensions \
 gnome-shell-extension-dash-to-panel \
 gnome-system-monitor \
+gnome-text-editor \
 gnome-themes-extra \
 gnome-tweaks \
 htop \
