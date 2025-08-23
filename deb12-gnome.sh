@@ -5,7 +5,7 @@ build-essential \
 cups \
 eog \
 evince \
-gnome-calc \
+gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
 gnome-keyring \
