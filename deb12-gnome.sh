@@ -1,4 +1,5 @@
-sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
+sudo apt update -y
+sudo apt install -y linux-headers-$(uname -r) gnome-shell pipewire pipewire-audio wireplumber \
 bash-completion \
 build-essential \
 cups \
@@ -28,5 +29,3 @@ echo ""
 echo ""
 sleep 3
 echo "Debian GNOME script finished! Please reboot now."
-echo ""
-echo ""
