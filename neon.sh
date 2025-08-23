@@ -9,5 +9,3 @@ echo ""
 echo ""
 sleep 3
 echo "KDE Neon script finished! Please reboot now."
-echo ""
-echo ""
