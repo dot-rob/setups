@@ -5,7 +5,6 @@ build-essential \
 cups \
 gnome-disk-utility \
 gnome-keyring \
-gnome-screenshot \
 gnome-shell-extensions \
 gnome-shell-extension-dash-to-panel \
 gnome-system-monitor \
