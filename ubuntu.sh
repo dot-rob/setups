@@ -2,9 +2,9 @@ sudo apt update -y
 sudo apt install -y build-essential \
 celluloid \
 gnome-tweaks \
-gnome-weather \
 htop \
-libreoffice \
+libreoffice-calc \
+libreoffice-writer \
 loupe \
 nmap \
 openfortivpn \
