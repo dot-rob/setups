@@ -1,7 +1,7 @@
 sudo apt update -y
-sudo apt install -y build-essential \
+sudo apt install -y gnome-tweaks \
+build-essential \
 celluloid \
-gnome-tweaks \
 htop \
 libreoffice-calc \
 libreoffice-writer \
