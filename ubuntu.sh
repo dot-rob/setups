@@ -16,4 +16,4 @@ echo ""
 sudo adduser rob dialout
 echo ""
 echo ""
-echo "Ubuntu GNOME script finished! Please reboot now."
+echo "Ubuntu script finished! Please reboot now."
