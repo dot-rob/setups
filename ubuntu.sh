@@ -5,7 +5,6 @@ gnome-tweaks \
 htop \
 libreoffice-calc \
 libreoffice-writer \
-loupe \
 nmap \
 openfortivpn \
 putty \
