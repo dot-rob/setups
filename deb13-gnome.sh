@@ -5,7 +5,6 @@ blanket \
 build-essential \
 cups \
 celluloid \
-firefox-esr \
 gnome-clocks \
 gnome-calculator \
 gnome-disk-utility \
