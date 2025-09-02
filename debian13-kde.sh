@@ -1,3 +1,4 @@
+sudo apt update -y
 sudo apt install -y plasma-desktop sddm pipewire pipewire-audio wireplumber \
 ark \
 bash-completion \
@@ -8,6 +9,7 @@ htop \
 gwenview \
 kate \
 kcalc \
+kclock \
 kde-spectacle \
 konsole \
 linux-headers-amd64 \
@@ -16,13 +18,15 @@ okular \
 openfortivpn \
 pkexec \
 print-manager \
+putty \
+remmina \
 vlc
 echo ""
 echo ""
 sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
-sudo apt autoremove -y
+sudo apt -y autoremove --purge
 echo ""
 echo ""
 sudo adduser rob dialout
