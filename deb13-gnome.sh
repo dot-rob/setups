@@ -5,8 +5,8 @@ blanket \
 build-essential \
 cups \
 celluloid \
-gnome-clocks \
 gnome-calculator \
+gnome-clocks \
 gnome-disk-utility \
 gnome-keyring \
 gnome-shell-extensions \
