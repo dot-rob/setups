@@ -3,7 +3,6 @@ sudo apt install -y gnome-tweaks \
 build-essential \
 celluloid \
 htop \
-libreoffice \
 nmap \
 openfortivpn \
 putty \
