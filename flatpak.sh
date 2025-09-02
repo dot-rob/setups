@@ -23,7 +23,7 @@ flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
 #flatpak install -y flathub org.kde.ark
 #flatpak install -y flathub org.kde.dolphin
 #flatpak install -y flathub org.kde.gwenview
-flatpak install -y flathub org.kde.isoimagewriter
+#flatpak install -y flathub org.kde.isoimagewriter
 #flatpak install -y flathub org.kde.kate
 #flatpak install -y flathub org.kde.kcalc
 #flatpak install -y flathub org.kde.kclock
