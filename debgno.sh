@@ -21,9 +21,9 @@ nautilus \
 nmap \
 openfortivpn \
 papers \
-ptyxis \
 putty \
 remmina \
+tilix \
 unattended-upgrades
 echo ""
 echo ""
