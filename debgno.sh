@@ -28,7 +28,7 @@ tilix \
 unattended-upgrades
 echo ""
 echo ""
-sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
+#sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
 echo ""
 echo ""
 sudo apt -y autoremove --purge
