@@ -24,7 +24,7 @@ remmina \
 vlc
 echo ""
 echo ""
-sudo apt install -y flatpak plasma-discover-backend-flatpak
+#sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
 sudo apt -y autoremove --purge
