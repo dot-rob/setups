@@ -6,7 +6,7 @@ cups \
 dolphin \
 htop \
 gwenview \
-kate \
+#kate \
 #kcalc \
 kde-spectacle \
 konsole \
