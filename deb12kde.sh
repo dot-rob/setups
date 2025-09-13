@@ -6,8 +6,6 @@ cups \
 dolphin \
 htop \
 gwenview \
-#kate \
-#kcalc \
 kde-spectacle \
 konsole \
 linux-headers-amd64 \
