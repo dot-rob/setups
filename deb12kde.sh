@@ -4,6 +4,7 @@ bash-completion \
 build-essential \
 cups \
 dolphin \
+firefox-esr \
 htop \
 gwenview \
 kde-spectacle \
