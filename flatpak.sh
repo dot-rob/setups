@@ -8,15 +8,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 ##########################################
 
-#gnome
-#flatpak install -y flathub com.rafaelmardojai.Blanket
-#flatpak install -y flathub io.github.celluloid_player.Celluloid
-#flatpak install -y flathub org.gtk.Gtk3theme.Adwaita-dark
-#sudo flatpak override --env=GTK_THEME=Adwaita-dark
-
-
-##########################################
-
 #kde
 flatpak install -y flathub org.kde.isoimagewriter
 flatpak install -y flathub org.kde.kate
