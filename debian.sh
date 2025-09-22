@@ -16,9 +16,7 @@ openfortivpn \
 pkexec \
 print-manager \
 putty \
-remmina \
-tlp \
-tlp-rdw
+remmina
 echo ""
 echo ""
 sudo apt install -y flatpak plasma-discover-backend-flatpak
