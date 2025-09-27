@@ -1,3 +1,4 @@
+sudo apt update -y
 sudo apt install -y plasma-desktop sddm pipewire pipewire-audio wireplumber \
 ark \
 bash-completion \
