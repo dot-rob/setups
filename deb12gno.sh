@@ -5,7 +5,6 @@ build-essential \
 cups \
 eog \
 evince \
-firefox-esr \
 gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
