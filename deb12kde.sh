@@ -23,7 +23,7 @@ echo ""
 sudo apt install -y flatpak plasma-discover-backend-flatpak
 echo ""
 echo ""
-sudo apt autoremove -y
+
 echo ""
 echo ""
 sudo adduser rob dialout
