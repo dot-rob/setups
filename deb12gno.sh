@@ -23,8 +23,7 @@ nmap \
 openfortivpn \
 putty \
 remmina \
-tilix \
-unattended-upgrades
+tilix
 echo ""
 echo ""
 sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
