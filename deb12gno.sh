@@ -10,6 +10,7 @@ gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
 gnome-keyring \
+gnome-shell-extension-dash-to-panel \
 gnome-shell-extensions \
 gnome-system-monitor \
 gnome-text-editor \
