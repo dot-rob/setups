@@ -2,6 +2,8 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 #all
 #flatpak install -y flathub org.mozilla.firefox
+#flatpak install -y flathub com.google.Chrome
+#flatpak install -y flathub com.spotify.Client
 #flatpak install -y flathub org.libreoffice.LibreOffice
 #flatpak install -y flathub org.remmina.Remmina
 #flatpak install -y flathub uk.org.greenend.chiark.sgtatham.putty
