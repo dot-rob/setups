@@ -5,6 +5,7 @@ build-essential \
 cups \
 eog \
 evince \
+foomatic-db \
 gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
