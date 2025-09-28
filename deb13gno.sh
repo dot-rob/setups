@@ -6,6 +6,7 @@ build-essential \
 cups \
 celluloid \
 firefox-esr \
+foomatic-db \
 gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
