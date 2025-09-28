@@ -6,6 +6,7 @@ build-essential \
 cups \
 dolphin \
 firefox-esr \
+foomatic-db \
 htop \
 gwenview \
 kate \
