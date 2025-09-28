@@ -5,6 +5,7 @@ bash-completion \
 build-essential \
 cups \
 dolphin \
+foomatic-db \
 htop \
 gwenview \
 kde-spectacle \
