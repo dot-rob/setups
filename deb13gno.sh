@@ -17,6 +17,7 @@ gnome-text-editor \
 gnome-themes-extra \
 gnome-tweaks \
 htop \
+iptables \
 linux-headers-amd64 \
 loupe \
 nautilus \
