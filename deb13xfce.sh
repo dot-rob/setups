@@ -11,6 +11,7 @@ gigolo \
 gnome-disk-utility \
 gvfs \
 gvfs-backends \
+iptables \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 mousepad \
@@ -21,6 +22,7 @@ remmina \
 ristretto \
 system-config-printer \
 thunar-archive-plugin \
+xdg-utils \
 xfce4-battery-plugin \
 xfce4-netload-plugin \
 xfce4-power-manager \
