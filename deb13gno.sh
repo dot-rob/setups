@@ -1,5 +1,7 @@
 sudo apt update -y
 sudo apt install -y gnome-shell pipewire pipewire-audio wireplumber \
+echo ""
+echo ""
 bash-completion \
 blanket \
 build-essential \
@@ -20,8 +22,6 @@ htop \
 linux-headers-amd64 \
 loupe \
 nautilus \
-nmap \
-openfortivpn \
 papers \
 putty \
 remmina \
