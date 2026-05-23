@@ -1,7 +1,5 @@
 sudo apt update -y
 sudo apt install -y xfce4 pipewire pipewire-audio wireplumber \
-echo ""
-echo ""
 atril \
 bash-completion \
 build-essential \
