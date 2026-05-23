@@ -1,7 +1,5 @@
 sudo apt update -y
 sudo apt install -y gnome-shell pipewire pipewire-audio wireplumber \
-echo ""
-echo ""
 bash-completion \
 blanket \
 build-essential \
