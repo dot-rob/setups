@@ -15,9 +15,7 @@ kclock \
 kde-spectacle \
 konsole \
 linux-headers-amd64 \
-nmap \
 okular \
-openfortivpn \
 pkexec \
 print-manager \
 putty \
