@@ -5,6 +5,8 @@ bash-completion \
 build-essential \
 cups \
 firefox-esr \
+fonts-inter \
+fonts-jetbrains-mono \
 foomatic-db \
 geany \
 gigolo \
