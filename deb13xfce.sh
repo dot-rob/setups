@@ -22,6 +22,7 @@ putty \
 qalculate-gtk \
 remmina \
 ristretto \
+rofi \
 system-config-printer \
 thunar-archive-plugin \
 xdg-utils \
