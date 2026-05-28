@@ -31,7 +31,8 @@ xfce4-netload-plugin \
 xfce4-power-manager \
 xfce4-screenshooter \
 xfce4-taskmanager \
-xfce4-terminal
+xfce4-terminal \
+xfce4-whiskermenu-plugin
 echo ""
 echo ""
 #sudo apt install -y flatpak xdg-desktop-portal xdg-desktop-portal-xapp xdg-desktop-portal-gtk
