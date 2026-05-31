@@ -13,7 +13,6 @@ gigolo \
 gnome-disk-utility \
 gvfs \
 gvfs-backends \
-iptables \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 mousepad \
