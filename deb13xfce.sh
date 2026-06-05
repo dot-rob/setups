@@ -1,22 +1,28 @@
 sudo apt update -y
-sudo apt install -y xfce4 pipewire pipewire-audio wireplumber \
+sudo apt install -y xfce4 pipewire pipewire-pulse pipewire-audio pavucontrol wireplumber \
+amd64-microcode \
+intel-microcode \
 atril \
 bash-completion \
+blueman bluez libspa-0.2-bluetooth \
 build-essential \
 cups \
+engrampa \
 firefox-esr \
+firmware-linux-nonfree \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
 geany \
-gigolo \
 gnome-disk-utility \
 gvfs \
 gvfs-backends \
+htop ncdu tree \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 mousepad \
 network-manager-gnome \
+openssh-client \
 putty \
 qalculate-gtk \
 remmina \
@@ -24,6 +30,9 @@ ristretto \
 rofi \
 system-config-printer \
 thunar-archive-plugin \
+thunar-volman \
+tumbler \
+unzip p7zip-full \
 xdg-utils \
 xfce4-battery-plugin \
 xfce4-netload-plugin \
@@ -34,9 +43,6 @@ xfce4-terminal
 echo ""
 echo ""
 #sudo apt install -y flatpak xdg-desktop-portal xdg-desktop-portal-xapp xdg-desktop-portal-gtk
-echo ""
-echo ""
-sudo apt -y autoremove --purge
 echo ""
 echo ""
 sudo adduser rob dialout
