@@ -13,4 +13,4 @@ cp qogir.xml "$HOME/.local/share/gtksourceview-4/styles/qogir.xml"
 cp qogir.xml "$HOME/.local/share/gtksourceview-3.0/styles/qogir.xml"
 cp qogir.rasi "$HOME/.config/rofi/themes/qogir.rasi"
 
-echo "Installed Qogir companion themes. Restart open apps if the schemes do not appear immediately."
+echo "Installed Qogir companion themes. Restart open apps."
