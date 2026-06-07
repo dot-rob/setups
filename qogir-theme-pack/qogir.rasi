@@ -8,11 +8,11 @@ Install to:
 configuration {
     show-icons:      true;
     display-drun:    "";
-    disable-history: false;
+    disable-history: true;
 }
 
 * {
-    font: "JetBrains Mono 12";
+    font: "JetBrains Mono 11";
 
     /* Qogir palette */
     foreground:        #D3DAE3;
