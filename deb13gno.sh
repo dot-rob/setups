@@ -5,7 +5,6 @@ blanket \
 build-essential \
 cups \
 celluloid \
-fonts-inter \
 fonts-jetbrains-mono \
 firefox-esr \
 gnome-calculator \
@@ -18,7 +17,6 @@ gnome-text-editor \
 gnome-themes-extra \
 gnome-tweaks \
 htop \
-iptables \
 linux-headers-amd64 \
 loupe \
 nautilus \
