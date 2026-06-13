@@ -1,13 +1,10 @@
 sudo apt update -y
 sudo apt install -y xfce4 pipewire pipewire-pulse pipewire-audio pavucontrol wireplumber \
-amd64-microcode \
-intel-microcode \
 atril \
 bash-completion \
 blueman bluez libspa-0.2-bluetooth \
 build-essential \
 cups \
-engrampa \
 firefox-esr \
 firmware-linux-nonfree \
 fonts-inter \
