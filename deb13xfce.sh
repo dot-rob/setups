@@ -7,7 +7,6 @@ build-essential \
 cups \
 firefox-esr \
 firmware-linux-nonfree \
-fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
 geany \
