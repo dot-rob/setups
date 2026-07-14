@@ -20,11 +20,13 @@ htop \
 linux-headers-amd64 \
 loupe \
 nautilus \
+openfortivpn \
 openssh-client \
 papers \
 putty \
 remmina \
-tilix
+tilix \
+tio
 echo ""
 echo ""
 #sudo apt install -y flatpak gnome-software-plugin-flatpak xdg-desktop-portal-gnome
