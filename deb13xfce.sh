@@ -18,6 +18,7 @@ lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 mousepad \
 network-manager-gnome \
+openfortivpn \
 openssh-client \
 putty \
 qalculate-gtk \
@@ -27,6 +28,7 @@ rofi \
 system-config-printer \
 thunar-archive-plugin \
 thunar-volman \
+tio \
 tumbler \
 unzip p7zip-full \
 xdg-utils \
