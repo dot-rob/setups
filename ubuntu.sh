@@ -6,6 +6,7 @@ celluloid \
 gnome-tweaks \
 htop \
 nmap \
+openfortivpn \
 putty \
 remmina \
 tio
