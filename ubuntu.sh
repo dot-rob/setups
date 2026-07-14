@@ -7,7 +7,8 @@ gnome-tweaks \
 htop \
 nmap \
 putty \
-remmina
+remmina \
+tio
 echo ""
 echo ""
 sudo adduser rob dialout
