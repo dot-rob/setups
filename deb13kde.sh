@@ -15,10 +15,12 @@ kde-spectacle \
 konsole \
 linux-headers-amd64 \
 okular \
+openfortivpn \
 pkexec \
 print-manager \
 putty \
 remmina \
+tio \
 vlc
 echo ""
 echo ""
