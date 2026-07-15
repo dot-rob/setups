@@ -1,7 +1,7 @@
-sudo apt update -y
-sudo apt install -y plasma-desktop sddm pipewire pipewire-pulse pipewire-audio wireplumber \
+sudo apt install -y plasma-desktop sddm pipewire pipewire-pulse pipewire-alsa pipewire-jack pipewire-audio wireplumber \
 ark \
 bash-completion \
+bluedevil \
 build-essential \
 cups \
 dolphin \
@@ -16,7 +16,6 @@ konsole \
 linux-headers-amd64 \
 okular \
 openfortivpn \
-pkexec \
 print-manager \
 putty \
 remmina \
