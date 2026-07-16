@@ -18,7 +18,6 @@ linux-headers-amd64 \
 okular \
 openfortivpn \
 print-manager \
-putty \
 remmina \
 tio
 echo ""
