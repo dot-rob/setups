@@ -8,6 +8,7 @@ dolphin \
 firefox-esr \
 htop \
 gwenview \
+haruna \
 kate \
 kcalc \
 kclock \
@@ -19,8 +20,7 @@ openfortivpn \
 print-manager \
 putty \
 remmina \
-tio \
-vlc
+tio
 echo ""
 echo ""
 sudo adduser rob dialout
