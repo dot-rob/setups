@@ -1,11 +1,12 @@
-sudo apt install -y xfce4 pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse pavucontrol wireplumber \
+sudo apt install -y xfce4 pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol wireplumber \
 atril \
 bash-completion \
 bluetooth blueman bluez-firmware libspa-0.2-bluetooth \
 build-essential \
-cups \
+cups cups-pk-helper ipp-usb \
+curl wget rsync \
 firefox-esr \
-firmware-linux-nonfree \
+firmware-linux-nonfree fwupd \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
@@ -13,11 +14,13 @@ geany \
 gnome-disk-utility \
 gvfs \
 gvfs-backends \
+gvfs-fuse \
 htop ncdu tree \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
+lm-sensors smartmontools \
 mousepad \
-network-manager-gnome \
+network-manager network-manager-gnome \
 openfortivpn \
 openssh-client \
 putty \
@@ -30,7 +33,7 @@ thunar-archive-plugin \
 thunar-volman \
 tio \
 tumbler \
-unzip p7zip-full \
+unzip p7zip-full xarchiver \
 xdg-utils \
 xfce4-battery-plugin \
 xfce4-netload-plugin \
@@ -40,10 +43,12 @@ xfce4-taskmanager \
 xfce4-terminal
 echo ""
 echo ""
-#sudo apt install -y flatpak xdg-desktop-portal xdg-desktop-portal-xapp xdg-desktop-portal-gtk
+sudo apt install -y intel-microcode
+sudo usermod -aG dialout rob
 echo ""
 echo ""
-sudo adduser rob dialout
+sudo systemctl enable NetworkManager
+sudo systemctl enable bluetooth
 echo ""
 echo ""
-echo "Debian XFCE script finished! Please reboot now."
+echo "Debian XFCE installation finished! Please reboot now."
