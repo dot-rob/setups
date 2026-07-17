@@ -1,4 +1,3 @@
-sudo apt update -y
 sudo apt install -y gnome-shell pipewire pipewire-pulse pipewire-audio wireplumber \
 bash-completion \
 blanket \
