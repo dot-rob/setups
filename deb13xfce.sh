@@ -1,7 +1,7 @@
-sudo apt install -y xfce4 pipewire pipewire-pulse pipewire-audio pavucontrol wireplumber \
+sudo apt install -y xfce4 pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse pavucontrol wireplumber \
 atril \
 bash-completion \
-blueman bluez libspa-0.2-bluetooth \
+bluetooth blueman bluez-firmware libspa-0.2-bluetooth \
 build-essential \
 cups \
 firefox-esr \
