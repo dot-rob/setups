@@ -31,6 +31,7 @@ rofi \
 system-config-printer \
 thunar-archive-plugin \
 thunar-volman \
+tilix \
 tio \
 tumbler \
 unzip p7zip-full xarchiver \
@@ -39,8 +40,7 @@ xfce4-battery-plugin \
 xfce4-netload-plugin \
 xfce4-power-manager \
 xfce4-screenshooter \
-xfce4-taskmanager \
-xfce4-terminal
+xfce4-taskmanager
 echo ""
 echo ""
 sudo apt install -y intel-microcode
