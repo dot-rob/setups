@@ -29,12 +29,12 @@ remmina \
 ristretto \
 rofi \
 system-config-printer \
-thunar-archive-plugin \
+thunar-archive-plugin file-roller \
 thunar-volman \
 tilix \
 tio \
 tumbler \
-unzip p7zip-full xarchiver \
+unzip p7zip-full \
 xdg-utils \
 xfce4-battery-plugin \
 xfce4-netload-plugin \
