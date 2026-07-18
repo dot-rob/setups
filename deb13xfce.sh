@@ -16,6 +16,7 @@ gvfs \
 gvfs-backends \
 gvfs-fuse \
 htop ncdu tree \
+intel-microcode \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 lm-sensors smartmontools \
@@ -43,12 +44,7 @@ xfce4-screenshooter \
 xfce4-taskmanager
 echo ""
 echo ""
-sudo apt install -y intel-microcode
 sudo usermod -aG dialout rob
-echo ""
-echo ""
-sudo systemctl enable NetworkManager
-sudo systemctl enable bluetooth
 echo ""
 echo ""
 echo "Debian XFCE installation finished! Please reboot now."
