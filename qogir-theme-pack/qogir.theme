@@ -1,0 +1,11 @@
+# Install to:
+# ~/.local/share/xfce4/terminal/colorschemes/qogir.theme
+# Alternative user path on some systems:
+# ~/.config/xfce4/terminal/colorschemes/qogir.theme
+
+[Scheme]
+Name=Qogir
+ColorCursor=#F6F7F8
+ColorForeground=#D3DAE3
+ColorBackground=#2F343F
+ColorPalette=#383C4A;#CC575D;#8AB93D;#F6D32D;#5294E2;#B294BB;#5BC0DE;#E8EAED;#4B5162;#CC575D;#8AB93D;#F6D32D;#5294E2;#B294BB;#5BC0DE;#F6F7F8
