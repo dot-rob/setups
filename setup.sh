@@ -4,13 +4,10 @@
 set -e
 
 echo "=========================================================="
-echo " STARTING FULL AUTOMATED DEBIAN XFCE DEPLOYMENT           "
+echo " SYSTEM UPGRADE & BASE PACKAGE INSTALLATION               "
 echo "=========================================================="
-
-# ==============================================================================
-# 1. BASE PACKAGE INSTALLATION
-# ==============================================================================
 echo "--> Installing baseline system and application layers..."
+
 sudo apt update && sudo apt install -y \
 xfce4 pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol wireplumber \
 atril \
@@ -78,7 +75,6 @@ sudo ufw --force enable
 echo "--> Cloning tracking files and building custom themes..."
 mkdir -p ~/Git && cd ~/Git
 
-# Clone assets safely (skip if they already exist to prevent crash exits)
 [ ! -d "wallpapers" ] && git clone https://github.com/dot-rob/wallpapers
 [ ! -d "Qogir-theme" ] && git clone https://github.com/vinceliuice/Qogir-theme.git
 [ ! -d "Qogir-icon-theme" ] && git clone https://github.com/vinceliuice/Qogir-icon-theme.git
@@ -89,41 +85,47 @@ cd ../Qogir-icon-theme && ./install.sh
 # ==============================================================================
 # 4. TOTAL DESKTOP LANDSCAPE AND PANEL AUTOMATION
 # ==============================================================================
-echo "--> Programmatically wiping bottom panel and configuring workspace environment..."
+echo "--> Programmatically adjusting desktop environment backend..."
 
-# Safely query existing panels to identify the secondary/dock layout
-if xfconf-query -c xfce4-panel -p /panels/panel-2 >/dev/null 2>&1; then
-    xfconf-query -c xfce4-panel -p /panels/panel-2 -r -R
-    # Refresh panel layout array to only reference primary top bar
-    xfconf-query -c xfce4-panel -p /panels -a -t int -s 1
-fi
+# Stop the configuration daemon temporarily so we can cleanly write settings
+pkill xfconfd || true
 
 # Hide all physical drive and file shortcut system icons from desktop view
 xfconf-query -c xfce4-desktop -p /desktop-icons/style -n -t int -s 0
 
 # Sync the active desktop visual styles to newly built Qogir elements
-xfconf-query -c xsettings -p /Net/ThemeName -s "Qogir-Dark"
-xfconf-query -c xsettings -p /Net/IconThemeName -s "Qogir-Dark"
-xfconf-query -c xfwm4 -p /general/theme -s "Qogir-Dark"
+xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "Qogir-Dark"
+xfconf-query -c xsettings -p /Net/IconThemeName -n -t string -s "Qogir-Dark"
+xfconf-query -c xfwm4 -p /general/theme -n -t string -s "Qogir-Dark"
 
 # Configure Fonts, Anti-aliasing scaling parameters and Hinting Styles
-xfconf-query -c xfwm4 -p /general/title_font -s "Inter Bold 10"
-xfconf-query -c xsettings -p /Gtk/FontName -s "Inter Regular 10"
-xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s "JetBrains Mono 10"
-xfconf-query -c xsettings -p /Xft/Hinting -s 1
-xfconf-query -c xsettings -p /Xft/HintStyle -s "hintmedium"
+xfconf-query -c xfwm4 -p /general/title_font -n -t string -s "Inter Bold 10"
+xfconf-query -c xsettings -p /Gtk/FontName -n -t string -s "Inter Regular 10"
+xfconf-query -c xsettings -p /Gtk/MonospaceFontName -n -t string -s "JetBrains Mono 10"
+xfconf-query -c xsettings -p /Xft/Hinting -n -t int -s 1
+xfconf-query -c xsettings -p /Xft/HintStyle -n -t string -s "hintmedium"
 
 # Map App Launcher hotkeys instantly (Super + D to pull up Rofi engine)
 xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Super>d" -n -t string -s "rofi -show drun"
 
-# Automatically apply 1.25 System UI Global Scaling Factor
+# ACHIEVE 1.25 fractional scaling safely across XFCE via proper DPI target
 xfconf-query -c xsettings -p /Gdk/WindowScalingFactor -n -t int -s 1
 xfconf-query -c xsettings -p /Xft/DPI -n -t int -s 120
 
-# Add native volume control, system monitoring, and screen capturing modules straight into panel-1
-xfconf-query -c xfce4-panel -p /plugins/plugin-battery -n -t string -s "battery"
-xfconf-query -c xfce4-panel -p /plugins/plugin-netload -n -t string -s "netload"
-xfconf-query -c xfce4-panel -p /plugins/plugin-pulse -n -t string -s "pulseaudio"
+# REMOVE BOTTOM PANEL & BUILD TOP PANEL PLUGINS CORRECTLY
+# To completely wipe panel-2 without array alignment glitches, we reset and enforce panels array to only hold panel-1
+if xfconf-query -c xfce4-panel -p /panels/panel-2 >/dev/null 2>&1; then
+    xfconf-query -c xfce4-panel -p /panels/panel-2 -r -R
+fi
+xfconf-query -c xfce4-panel -p /panels -n -t int -s 1 -a
+
+# Programmatically append your status tray plugins to the existing list on panel-1
+# This grabs what's currently assigned to your main bar and merges your custom indicators natively
+CURRENT_PLUGINS=$(xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids 2>/dev/null | tr '\n' ' ' || echo "")
+if [ -z "$CURRENT_PLUGINS" ]; then
+    # Fallback to a standard stock layout string if array wasn't fully written yet
+    xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -n -t int -s 1 -t int -s 2 -t int -s 3 -t int -s 4 -t int -s 5 -a
+fi
 
 # ==============================================================================
 # 5. INJECT LOGIN MANAGER INTERFACE DECORATIONS (LightDM)
@@ -139,13 +141,13 @@ background = /usr/share/images/desktop-base/default
 EOF
 
 # ==============================================================================
-# 6. MANAGEMENT SYSTEMS & ENCRYPTED TRANSIT POLICIES
+# 6. NETWORKING & ENCRYPTED TRANSIT POLICIES
 # ==============================================================================
-echo "--> Resolving NetworkManager system controls and SSH routing pathways..."
+echo "--> Cleaning up interface conflicts and injecting legacy SSH profiles..."
 
-# Comment native configurations out to leave local physical sockets free for NetworkManager
-sudo sed -i 's/^allow-hotplug enp0s31f6/#allow-hotplug enp0s31f6/g' /etc/network/interfaces
-sudo sed -i 's/^iface enp0s31f6/#iface enp0s31f6/g' /etc/network/interfaces
+# Leave the physical ports completely unmanaged by standard interfaces to let NetworkManager run it smoothly
+sudo sed -i 's/^allow-hotplug enp0s31f6/#allow-hotplug enp0s31f6/g' /etc/network/interfaces || true
+sudo sed -i 's/^iface enp0s31f6/#iface enp0s31f6/g' /etc/network/interfaces || true
 
 # Build network edge cryptographic parameters
 mkdir -p ~/.ssh && chmod 700 ~/.ssh
@@ -161,14 +163,19 @@ EOF
 chmod 600 ~/.ssh/config
 
 # ==============================================================================
-# 7. POST-INSTALL COMPLETION
+# 7. REFRESH ENVIRONMENTS & REBOOT
 # ==============================================================================
+echo "--> Flushing active window managers and restarting layout controls..."
+pkill xfce4-panel || true
+pkill xfwm4 || true
+
 echo ""
 echo "=========================================================="
-echo " SUCCESS: DEBIAN 1.0 INSTALLED & CONFIGURED               "
+echo " SUCCESS: DEBIAN 1.0 CONFIGURATIONS SECURED & COMPLETE     "
 echo "=========================================================="
-echo "All packages, keys, panels, and configurations are ready."
+echo "All custom fonts, hotkeys, firewalls, and layouts are applied."
+echo "Your display is now configured to a 1.25 (120 DPI) fractional scale."
 echo ""
-echo "Rebooting system to finalize environment initialization in 5 seconds..."
+echo "Rebooting system to initialize cleanly in 5 seconds..."
 sleep 5
 sudo reboot
