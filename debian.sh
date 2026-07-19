@@ -1,6 +1,6 @@
 sudo apt install -y xfce4 pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol wireplumber \
 atril \
-arc-theme greybird-gtk-theme \
+greybird-gtk-theme \
 bash-completion \
 bluetooth blueman bluez-firmware libspa-0.2-bluetooth \
 build-essential \
