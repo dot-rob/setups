@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Run from: the extracted nord-theme-pack directory
-# Installs Tilix scheme to: ~/.config/tilix/schemes/nord.json
 
 set -euo pipefail
 
