@@ -4,15 +4,6 @@
  * Target:
  *   XFCE 4.18+ / GTK 3.20+
  *
- * Purpose:
- *   Styles the XFCE panel and common panel plugins without broadly altering
- *   GTK applications. Symbolic colors are namespaced to avoid collisions with
- *   Qogir, Nordic, and other GTK themes.
- *
- * Scope:
- *   Panel widgets are scoped beneath .xfce4-panel. Menus intentionally inherit
- *   the active GTK theme. Tooltips are the one intentional global exception.
- *
  * Installation:
  *   Copy this file to ~/.config/gtk-3.0/gtk.css
  *
@@ -98,16 +89,6 @@
   Standard button: 4px vertical / 6px horizontal
   Text button:     4px vertical / 8px horizontal
   Popup surface:   6px
-============================================================================*/
-
-/*============================================================================
-  DEFAULT PANEL BUTTON STATES
-
-  GTK 3 uses :disabled for the insensitive state. These rules apply to every
-  panel plugin implemented as a GtkButton or GtkToggleButton, including
-  launchers, Whisker Menu, clock, PulseAudio, notifications, power manager,
-  status notifier, actions, directory menu, Clipman, Weather, and GenMon
-  button output.
 ============================================================================*/
 
 .xfce4-panel button {
@@ -205,10 +186,6 @@
 
 /*============================================================================
   TASKLIST
-
-  Task buttons use the same hover, checked, active, and disabled states as
-  every other panel button. Only their dimensions and resting text color are
-  customized here.
 ============================================================================*/
 
 .xfce4-panel .tasklist button {
