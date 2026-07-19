@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Run from: the extracted qogir-theme-pack directory
-# Installs Tilix scheme to: ~/.config/tilix/schemes/qogir.json
 
 set -euo pipefail
 
