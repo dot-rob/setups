@@ -1,23 +1,22 @@
 sudo apt install -y xfce4 pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol wireplumber \
 atril \
-greybird-gtk-theme \
 bash-completion \
 bluetooth blueman bluez-firmware libspa-0.2-bluetooth \
 build-essential \
 cups cups-pk-helper ipp-usb \
 curl wget rsync \
 firefox-esr \
-firmware-linux-nonfree firmware-iwlwifi firmware-realtek fwupd \
+firmware-linux-nonfree firmware-iwlwifi firmware-realtek fwupd intel-microcode amd64-microcode \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
 geany \
 gnome-disk-utility \
+greybird-gtk-theme \
 gvfs \
 gvfs-backends \
 gvfs-fuse \
 htop ncdu tree \
-intel-microcode amd64-microcode \
 lightdm-gtk-greeter-settings \
 linux-headers-amd64 \
 lm-sensors smartmontools \
@@ -48,7 +47,6 @@ xfce4-taskmanager
 echo ""
 echo ""
 sudo usermod -aG dialout rob
-xdg-user-dirs-update
 echo ""
 echo ""
 echo "Debian XFCE installation finished! Please reboot now."
