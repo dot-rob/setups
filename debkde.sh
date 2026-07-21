@@ -6,7 +6,7 @@ bluedevil \
 build-essential \
 cups cups-pk-helper ipp-usb \
 curl wget rsync \
-dnsutils nmap traceroute whois htop ncdu tree \
+dnsutils htop ncdu nmap traceroute tree whois \
 dolphin \
 fd-find \
 ffmpegthumbs \
