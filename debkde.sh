@@ -1,4 +1,5 @@
 sudo apt install -y plasma-desktop sddm pipewire pipewire-alsa pipewire-pulse wireplumber \
+amd64-microcode \
 ark \
 bash-completion \
 bluedevil \
@@ -11,21 +12,20 @@ fd-find \
 ffmpegthumbs \
 filelight \
 firefox-esr \
-firmware-linux-nonfree \
-firmware-iwlwifi \
-firmware-realtek \
 firmware-amd-graphics \
-firmware-misc-nonfree \
+firmware-iwlwifi \
 firmware-linux-nonfree \
-fwupd \
-amd64-microcode \
-intel-microcode \
+firmware-linux-nonfree \
+firmware-misc-nonfree \
+firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
+fwupd \
 gvfs-backends \
 gwenview \
 haruna \
+intel-microcode \
 kate \
 kcalc \
 kclock \
