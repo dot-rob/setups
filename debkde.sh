@@ -24,7 +24,9 @@ okular \
 openfortivpn \
 print-manager \
 remmina \
-tio
+tio \
+ufw \
+unzip p7zip-full
 echo ""
 echo ""
 sudo adduser rob dialout
