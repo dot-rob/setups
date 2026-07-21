@@ -3,7 +3,8 @@ ark \
 bash-completion \
 bluedevil \
 build-essential \
-cups \
+cups cups-pk-helper ipp-usb \
+curl wget rsync \
 dolphin \
 firefox-esr \
 htop \
