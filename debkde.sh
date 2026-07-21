@@ -1,4 +1,4 @@
-sudo apt install -y plasma-desktop sddm pipewire pipewire-alsa pipewire-audio pipewire-pulse wireplumber \
+sudo apt install -y plasma-desktop sddm pipewire pipewire-alsa pipewire-pulse wireplumber \
 ark \
 bash-completion \
 bluedevil \
