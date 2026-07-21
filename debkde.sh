@@ -11,7 +11,7 @@ firmware-linux-nonfree firmware-iwlwifi firmware-realtek fwupd intel-microcode a
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
-htop \
+htop ncdu tree \
 gwenview \
 haruna \
 kate \
