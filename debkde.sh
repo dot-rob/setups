@@ -7,6 +7,10 @@ cups cups-pk-helper ipp-usb \
 curl wget rsync \
 dolphin \
 firefox-esr \
+firmware-linux-nonfree firmware-iwlwifi firmware-realtek fwupd intel-microcode amd64-microcode \
+fonts-inter \
+fonts-jetbrains-mono \
+foomatic-db \
 htop \
 gwenview \
 haruna \
