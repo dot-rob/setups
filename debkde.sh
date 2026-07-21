@@ -11,8 +11,15 @@ fd-find \
 ffmpegthumbs \
 filelight \
 firefox-esr \
+firmware-linux-nonfree \
+firmware-iwlwifi \
+firmware-realtek \
 firmware-amd-graphics \
-firmware-linux-nonfree firmware-iwlwifi firmware-realtek fwupd intel-microcode amd64-microcode firmware-misc-nonfree \
+firmware-misc-nonfree \
+firmware-linux-nonfree \
+fwupd \
+amd64-microcode \
+intel-microcode \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
