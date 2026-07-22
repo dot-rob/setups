@@ -12,7 +12,6 @@ fonts-jetbrains-mono \
 foomatic-db \
 geany \
 gnome-disk-utility \
-greybird-gtk-theme \
 gvfs \
 gvfs-backends \
 gvfs-fuse \
