@@ -78,8 +78,7 @@ done
 echo ""
 echo ""
 
-echo "GNOME installation completed successfully."
-echo "Reboot to complete the setup."
+echo "GNOME installation completed. Reboot to complete the setup."
 
 echo ""
 echo ""
