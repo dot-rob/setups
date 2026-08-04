@@ -7,6 +7,7 @@ echo "Installing Ubuntu applications..."
 sudo apt install -y \
 blanket \
 build-essential \
+curl \
 gnome-tweaks \
 htop \
 nmap \
@@ -15,7 +16,8 @@ putty \
 remmina \
 showtime \
 tio \
-virt-manager
+virt-manager \
+whois
 
 echo ""
 echo ""
