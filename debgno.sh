@@ -6,6 +6,7 @@ echo "Installing GNOME and applications..."
 
 sudo apt install -y \
 gnome-core \
+gdm3 \
 bash-completion \
 bind9-dnsutils \
 blanket \
