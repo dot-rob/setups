@@ -43,7 +43,6 @@ network-manager-gnome \
 nfs-common \
 nmap \
 openfortivpn \
-p7zip-full \
 papers \
 pipewire \
 pipewire-alsa \
