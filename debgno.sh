@@ -14,8 +14,6 @@ cifs-utils \
 cups \
 cups-pk-helper \
 curl \
-fd-find \
-file-roller \
 firefox-esr \
 firmware-iwlwifi \
 firmware-linux-nonfree \
