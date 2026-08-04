@@ -14,7 +14,8 @@ openfortivpn \
 putty \
 remmina \
 showtime \
-tio
+tio \
+virt-manager
 
 echo ""
 echo ""
