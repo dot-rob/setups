@@ -5,7 +5,7 @@ set -euo pipefail
 echo "Installing GNOME and applications..."
 
 sudo apt install -y \
-gnome-core \
+gnome-shell \
 gdm3 \
 bash-completion \
 bind9-dnsutils \
