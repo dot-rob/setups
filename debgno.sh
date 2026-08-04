@@ -6,7 +6,6 @@ echo "Installing GNOME and applications..."
 
 sudo apt install -y \
 gnome-shell \
-gnome-session \
 gdm3 \
 bash-completion \
 bind9-dnsutils \
@@ -28,6 +27,7 @@ gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
 gnome-logs \
+gnome-session \
 gnome-shell-extension-dash-to-panel \
 gnome-shell-extensions \
 gnome-text-editor \
