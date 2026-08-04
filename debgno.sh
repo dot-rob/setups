@@ -58,7 +58,8 @@ unzip \
 virt-manager \
 wget \
 whois \
-wireplumber
+wireplumber \
+zip
 
 echo ""
 echo ""
