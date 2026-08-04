@@ -15,6 +15,7 @@ cifs-utils \
 cups \
 cups-pk-helper \
 curl \
+engrampa \
 firefox-esr \
 firmware-iwlwifi \
 firmware-linux-nonfree \
