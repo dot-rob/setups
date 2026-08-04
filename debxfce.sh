@@ -15,7 +15,6 @@ cifs-utils \
 cups \
 cups-pk-helper \
 curl \
-engrampa \
 firefox-esr \
 firmware-iwlwifi \
 firmware-linux-nonfree \
@@ -52,6 +51,7 @@ virt-manager \
 wget \
 whois \
 wireplumber \
+xarchiver \
 xfce4-battery-plugin \
 xfce4-clipman-plugin \
 xfce4-netload-plugin \
