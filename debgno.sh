@@ -20,7 +20,8 @@ firmware-linux-nonfree \
 firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
-foomatic-db \
+foomatic-db-compressed-ppds \
+openprinting-ppds \
 gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
