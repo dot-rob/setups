@@ -41,6 +41,7 @@ putty \
 qalculate-gtk \
 remmina \
 ristretto \
+rofi \
 system-config-printer \
 thunar \
 thunar-archive-plugin \
