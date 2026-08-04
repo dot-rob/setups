@@ -21,7 +21,6 @@ firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
-fwupd \
 gnome-calculator \
 gnome-clocks \
 gnome-disk-utility \
@@ -51,8 +50,6 @@ showtime \
 system-config-printer \
 tilix \
 tio \
-traceroute \
-tree \
 ufw \
 unzip \
 virt-manager \
