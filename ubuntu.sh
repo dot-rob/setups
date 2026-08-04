@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-echo "Installing UBUNTU applications..."
+echo "Installing Ubuntu applications..."
 
 sudo apt install -y \
 blanket \
