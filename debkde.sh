@@ -18,7 +18,6 @@ cups \
 cups-pk-helper \
 curl \
 dolphin \
-fd-find \
 ffmpegthumbs \
 firefox-esr \
 firmware-iwlwifi \
@@ -26,8 +25,8 @@ firmware-linux-nonfree \
 firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
-foomatic-db \
-fwupd \
+foomatic-db-compressed-ppds \
+openprinting-ppds \
 gvfs-backends \
 gwenview \
 haruna \
@@ -45,14 +44,12 @@ ksystemlog \
 kwrite \
 libspa-0.2-bluetooth \
 linux-headers-amd64 \
-ncdu \
 network-manager \
 nfs-common \
 nmap \
 okular \
 openfortivpn \
 p7zip-full \
-partitionmanager \
 pipewire \
 pipewire-alsa \
 pipewire-pulse \
@@ -62,8 +59,6 @@ putty \
 qt6-image-formats-plugins \
 remmina \
 tio \
-traceroute \
-tree \
 ufw \
 unzip \
 virt-manager \
