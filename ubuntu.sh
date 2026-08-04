@@ -32,4 +32,4 @@ done
 echo ""
 echo ""
 
-echo "Ubuntu script finished! Please reboot now."
+echo "Ubuntu installation completed. Reboot to complete the setup."
