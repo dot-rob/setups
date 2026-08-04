@@ -33,3 +33,6 @@ echo ""
 echo ""
 
 echo "Ubuntu installation completed. Reboot to complete the setup."
+
+echo ""
+echo ""
