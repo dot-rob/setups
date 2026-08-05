@@ -57,7 +57,8 @@ xfce4-taskmanager \
 xfce4-terminal \
 xfce4-timer-plugin \
 xfce4-weather-plugin \
-xfce4-whiskermenu-plugin
+xfce4-whiskermenu-plugin \
+zip
 
 echo ""
 echo ""
