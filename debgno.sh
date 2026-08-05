@@ -43,9 +43,7 @@ nfs-common \
 nmap \
 openfortivpn \
 papers \
-pipewire \
-pipewire-alsa \
-pipewire-pulse \
+pipewire-audio wireplumber \
 remmina \
 showtime \
 system-config-printer \
@@ -56,7 +54,6 @@ unzip \
 virt-manager \
 wget \
 whois \
-wireplumber \
 zip
 
 echo ""
