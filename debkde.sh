@@ -48,10 +48,7 @@ nfs-common \
 nmap \
 okular \
 openfortivpn \
-p7zip-full \
-pipewire \
-pipewire-alsa \
-pipewire-pulse \
+pipewire-audio wireplumber \
 plasma-nm \
 print-manager \
 putty \
@@ -62,8 +59,7 @@ ufw \
 unzip \
 virt-manager \
 wget \
-whois \
-wireplumber
+whois
 
 echo ""
 echo ""
