@@ -25,8 +25,7 @@ firmware-linux-nonfree \
 firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
-foomatic-db-compressed-ppds \
-openprinting-ppds \
+foomatic-db \
 gvfs-backends \
 gwenview \
 haruna \
