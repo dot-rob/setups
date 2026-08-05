@@ -30,16 +30,12 @@ mousepad \
 nfs-common \
 nmap \
 openfortivpn \
-p7zip-full \
 parole \
-pipewire \
-pipewire-alsa \
-pipewire-pulse \
+pipewire-audio wireplumber \
 putty \
 qalculate-gtk \
 remmina \
 ristretto \
-rofi \
 system-config-printer \
 thunar \
 thunar-archive-plugin \
@@ -49,7 +45,6 @@ unzip \
 virt-manager \
 wget \
 whois \
-wireplumber \
 xarchiver \
 xfce4-battery-plugin \
 xfce4-clipman-plugin \
@@ -61,7 +56,8 @@ xfce4-screenshooter \
 xfce4-taskmanager \
 xfce4-terminal \
 xfce4-timer-plugin \
-xfce4-weather-plugin
+xfce4-weather-plugin \
+xfce4-whiskermenu-plugin
 
 echo ""
 echo ""
