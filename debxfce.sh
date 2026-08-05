@@ -21,8 +21,7 @@ firmware-linux-nonfree \
 firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
-foomatic-db-compressed-ppds \
-openprinting-ppds \
+foomatic-db \
 geany \
 gnome-disk-utility \
 gvfs-backends \
