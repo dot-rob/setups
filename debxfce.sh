@@ -27,6 +27,7 @@ gnome-disk-utility \
 gvfs-backends \
 htop \
 mousepad \
+network-manager-gnome \
 nfs-common \
 nmap \
 openfortivpn \
