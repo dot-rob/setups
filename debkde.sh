@@ -59,7 +59,8 @@ ufw \
 unzip \
 virt-manager \
 wget \
-whois
+whois \
+zip
 
 echo ""
 echo ""
