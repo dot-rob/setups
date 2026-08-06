@@ -4,7 +4,7 @@ set -euo pipefail
 
 echo "Installing additional XFCE applications..."
 
-sudo apt install --simulate \
+sudo apt install -y \
 atril \
 build-essential \
 cifs-utils \
