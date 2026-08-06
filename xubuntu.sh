@@ -29,7 +29,6 @@ ristretto \
 system-config-printer \
 thunar-archive-plugin \
 tio \
-virt-manager \
 whois \
 xarchiver \
 xfce4-battery-plugin \
