@@ -51,7 +51,6 @@ tilix \
 tio \
 ufw \
 unzip \
-virt-manager \
 wget \
 whois \
 zip
