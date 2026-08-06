@@ -55,6 +55,11 @@ done
 echo ""
 echo ""
 
+git clone https://github.com/vinceliuice/Qogir-theme.git
+
+echo ""
+echo ""
+
 echo "XFCE installation completed. Reboot to complete the setup."
 
 echo ""
