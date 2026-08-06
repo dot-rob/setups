@@ -27,6 +27,7 @@ qalculate-gtk \
 remmina \
 ristretto \
 system-config-printer \
+thunar-archive-plugin \
 tio \
 virt-manager \
 whois \
