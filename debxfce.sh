@@ -43,7 +43,6 @@ thunar-archive-plugin \
 tio \
 ufw \
 unzip \
-virt-manager \
 wget \
 whois \
 xarchiver \
