@@ -6,26 +6,18 @@ echo "Installing additional XFCE applications..."
 
 sudo apt install --simulate \
 atril \
-bash-completion \
-bind9-dnsutils \
 build-essential \
 cifs-utils \
-cups \
 cups-pk-helper \
 curl \
 firefox \
-firmware-iwlwifi \
-firmware-linux-nonfree \
-firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
-foomatic-db \
 geany \
 gnome-disk-utility \
 gvfs-backends \
 htop \
 mousepad \
-network-manager-gnome \
 nfs-common \
 nmap \
 openfortivpn \
@@ -36,25 +28,16 @@ remmina \
 ristretto \
 system-config-printer \
 tio \
-ufw \
-unzip \
 virt-manager \
-wget \
 whois \
 xarchiver \
 xfce4-battery-plugin \
 xfce4-clipman-plugin \
 xfce4-netload-plugin \
-xfce4-notifyd \
 xfce4-places-plugin \
-xfce4-power-manager-plugins \
-xfce4-screenshooter \
 xfce4-taskmanager \
-xfce4-terminal \
 xfce4-timer-plugin \
-xfce4-weather-plugin \
-xfce4-whiskermenu-plugin \
-zip
+xfce4-weather-plugin
 
 echo ""
 echo ""
