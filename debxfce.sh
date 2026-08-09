@@ -33,6 +33,7 @@ nmap \
 openfortivpn \
 parole \
 pipewire-audio wireplumber \
+pkexec \
 putty \
 qalculate-gtk \
 remmina \
