@@ -1,4 +1,4 @@
-#!/bin/bash
+I'm#!/bin/bash
 
 set -euo pipefail
 
@@ -49,6 +49,7 @@ nmap \
 okular \
 openfortivpn \
 pipewire-audio wireplumber \
+pkexec \
 plasma-nm \
 print-manager \
 putty \
