@@ -30,6 +30,7 @@ gnome-session \
 gnome-shell-extension-dash-to-panel \
 gnome-shell-extensions \
 gnome-text-editor \
+gnome-themes-extra \
 gnome-tweaks \
 gvfs-backends \
 htop \
