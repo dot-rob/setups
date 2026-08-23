@@ -58,6 +58,7 @@ remmina \
 tio \
 ufw \
 unzip \
+virt-manager \
 wget \
 whois \
 zip
@@ -66,7 +67,7 @@ echo ""
 echo ""
 
 echo "Adding $USER to required groups..."
-for group in dialout lpadmin; do
+for group in dialout libvirt lpadmin; do
   if id -nG "$USER" | grep -qw "$group"; then
     echo "$USER is already in the $group group."
   else
