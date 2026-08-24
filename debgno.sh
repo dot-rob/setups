@@ -47,6 +47,7 @@ papers \
 pipewire-audio wireplumber \
 remmina \
 showtime \
+speech-dispatcher \
 system-config-printer \
 tilix \
 tio \
