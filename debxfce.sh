@@ -38,6 +38,7 @@ putty \
 qalculate-gtk \
 remmina \
 ristretto \
+speech-dispatcher \
 system-config-printer \
 thunar \
 thunar-archive-plugin \
