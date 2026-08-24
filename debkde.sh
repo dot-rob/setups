@@ -55,6 +55,7 @@ print-manager \
 putty \
 qt6-image-formats-plugins \
 remmina \
+speech-dispatcher \
 tio \
 ufw \
 unzip \
