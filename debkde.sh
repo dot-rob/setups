@@ -4,13 +4,17 @@ set -euo pipefail
 
 echo "Installing KDE and applications..."
 
+sudo apt update
+
 sudo apt install -y \
 plasma-desktop \
 sddm \
+amd64-microcode \
 ark \
 bash-completion \
 bind9-dnsutils \
 bluedevil \
+bluez \
 breeze-gtk-theme \
 build-essential \
 cifs-utils \
@@ -42,13 +46,13 @@ konsole \
 ksystemlog \
 kwrite \
 libspa-0.2-bluetooth \
-linux-headers-amd64 \
+libvirt-daemon-system \
 network-manager \
 nfs-common \
 nmap \
 okular \
 openfortivpn \
-pipewire-audio wireplumber \
+pipewire-audio \
 pkexec \
 plasma-nm \
 print-manager \
@@ -57,12 +61,22 @@ qt6-image-formats-plugins \
 remmina \
 speech-dispatcher \
 tio \
+udisks2 \
 ufw \
 unzip \
+upower \
 virt-manager \
 wget \
 whois \
 zip
+
+echo ""
+echo ""
+
+echo "Enabling firewall (deny incoming, allow outgoing)..."
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw --force enable
 
 echo ""
 echo ""
