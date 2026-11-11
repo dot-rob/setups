@@ -28,12 +28,14 @@ fonts-inter \
 fonts-jetbrains-mono \
 foomatic-db \
 geany \
+git \
 gnome-disk-utility \
 gvfs-backends \
 htop \
 intel-microcode \
 libspa-0.2-bluetooth \
 libvirt-daemon-system \
+lightdm-gtk-greeter-settings \
 mate-polkit \
 mousepad \
 network-manager-gnome \
