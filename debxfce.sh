@@ -4,12 +4,17 @@ set -euo pipefail
 
 echo "Installing XFCE and applications..."
 
+sudo apt update
+
 sudo apt install -y \
 xfce4 \
 lightdm \
+amd64-microcode \
 atril \
 bash-completion \
 bind9-dnsutils \
+blueman \
+bluez \
 build-essential \
 cifs-utils \
 cups \
@@ -26,13 +31,17 @@ geany \
 gnome-disk-utility \
 gvfs-backends \
 htop \
+intel-microcode \
+libspa-0.2-bluetooth \
+libvirt-daemon-system \
+mate-polkit \
 mousepad \
 network-manager-gnome \
 nfs-common \
 nmap \
 openfortivpn \
 parole \
-pipewire-audio wireplumber \
+pipewire-audio \
 pkexec \
 putty \
 qalculate-gtk \
@@ -62,6 +71,14 @@ xfce4-timer-plugin \
 xfce4-weather-plugin \
 xfce4-whiskermenu-plugin \
 zip
+
+echo ""
+echo ""
+
+echo "Enabling firewall (deny incoming, allow outgoing)..."
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw --force enable
 
 echo ""
 echo ""
