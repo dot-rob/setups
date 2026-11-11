@@ -1,23 +1,45 @@
 #!/bin/bash
 
+# Requires Ubuntu 25.04 or later (showtime is not in the 24.04 archive).
+
 set -euo pipefail
 
 echo "Installing Ubuntu applications..."
 
+sudo apt update
+
 sudo apt install -y \
+bind9-dnsutils \
 blanket \
 build-essential \
+cifs-utils \
 curl \
+fonts-inter \
+fonts-jetbrains-mono \
 gnome-tweaks \
 htop \
+libvirt-daemon-system \
+nfs-common \
 nmap \
 openfortivpn \
 putty \
 remmina \
 showtime \
 tio \
+ufw \
+unzip \
 virt-manager \
-whois
+wget \
+whois \
+zip
+
+echo ""
+echo ""
+
+echo "Enabling firewall (deny incoming, allow outgoing)..."
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw --force enable
 
 echo ""
 echo ""
