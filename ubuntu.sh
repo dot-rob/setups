@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Requires Ubuntu 25.04 or later (showtime is not in the 24.04 archive).
-
 set -euo pipefail
 
 echo "Installing Ubuntu applications..."
