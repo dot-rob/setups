@@ -4,16 +4,24 @@ set -euo pipefail
 
 echo "Installing GNOME and applications..."
 
+sudo apt update
+
 sudo apt install -y \
 gnome-shell \
+gdm3 \
+gnome-control-center \
+gnome-keyring \
+amd64-microcode \
 bash-completion \
 bind9-dnsutils \
 blanket \
+bluez \
 build-essential \
 cifs-utils \
 cups \
 cups-pk-helper \
 curl \
+file-roller \
 firefox-esr \
 firmware-iwlwifi \
 firmware-linux-nonfree \
@@ -35,7 +43,7 @@ gvfs-backends \
 htop \
 intel-microcode \
 libspa-0.2-bluetooth \
-linux-headers-amd64 \
+libvirt-daemon-system \
 loupe \
 nautilus \
 network-manager-gnome \
@@ -43,7 +51,7 @@ nfs-common \
 nmap \
 openfortivpn \
 papers \
-pipewire-audio wireplumber \
+pipewire-audio \
 remmina \
 showtime \
 speech-dispatcher \
@@ -56,6 +64,14 @@ virt-manager \
 wget \
 whois \
 zip
+
+echo ""
+echo ""
+
+echo "Enabling firewall (deny incoming, allow outgoing)..."
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw --force enable
 
 echo ""
 echo ""
