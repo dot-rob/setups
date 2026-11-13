@@ -12,7 +12,6 @@ case "$DE" in
     CORE=(
       gnome-shell
       gdm3
-      gnome-control-center
     )
     EXTRA=(
       blanket
