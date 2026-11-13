@@ -11,6 +11,7 @@ xfce4 \
 lightdm \
 amd64-microcode \
 atril \
+avahi-daemon \
 bash-completion \
 bind9-dnsutils \
 blueman \
@@ -26,13 +27,19 @@ firmware-linux-nonfree \
 firmware-realtek \
 fonts-inter \
 fonts-jetbrains-mono \
+fonts-noto-color-emoji \
 foomatic-db \
 geany \
 git \
 gnome-disk-utility \
+gnome-keyring \
+gstreamer1.0-libav \
+gstreamer1.0-plugins-ugly \
 gvfs-backends \
 htop \
 intel-microcode \
+ipp-usb \
+libpam-gnome-keyring \
 libspa-0.2-bluetooth \
 libvirt-daemon-system \
 lightdm-gtk-greeter-settings \
@@ -43,6 +50,7 @@ nfs-common \
 nmap \
 openfortivpn \
 parole \
+pavucontrol \
 pipewire-audio \
 pkexec \
 putty \
@@ -53,7 +61,9 @@ speech-dispatcher \
 system-config-printer \
 thunar \
 thunar-archive-plugin \
+thunar-volman \
 tio \
+udisks2 \
 ufw \
 unzip \
 virt-manager \
@@ -66,6 +76,7 @@ xfce4-netload-plugin \
 xfce4-notifyd \
 xfce4-places-plugin \
 xfce4-power-manager-plugins \
+xfce4-screensaver \
 xfce4-screenshooter \
 xfce4-taskmanager \
 xfce4-terminal \
