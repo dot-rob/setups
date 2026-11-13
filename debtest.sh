@@ -42,9 +42,6 @@ case "$DE" in
       atril
       blueman
       geany
-      git
-      gstreamer1.0-libav
-      gstreamer1.0-plugins-ugly
       lightdm-gtk-greeter-settings
       mate-polkit
       mousepad
@@ -97,8 +94,11 @@ BASE=(
   fonts-jetbrains-mono
   fonts-noto-color-emoji
   foomatic-db
+  git
   gnome-disk-utility
   gnome-keyring
+  gstreamer1.0-libav
+  gstreamer1.0-plugins-ugly
   gvfs-backends
   htop
   intel-microcode
