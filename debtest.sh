@@ -51,7 +51,6 @@ case "$DE" in
       parole
       pavucontrol
       pkexec
-      putty
       qalculate-gtk
       ristretto
       thunar
@@ -112,6 +111,7 @@ BASE=(
   nmap
   openfortivpn
   pipewire-audio
+  putty
   remmina
   speech-dispatcher
   system-config-printer
