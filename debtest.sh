@@ -94,7 +94,6 @@ BASE=(
   fonts-jetbrains-mono
   fonts-noto-color-emoji
   foomatic-db
-  git
   gnome-disk-utility
   gnome-keyring
   gstreamer1.0-libav
