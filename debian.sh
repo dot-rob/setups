@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: bash ./debian.sh gnome|xfce
+# Usage: bash ./debian.sh gnome|xfce|kde
 # Debian 13 (trixie) post-install script.
 
 set -euo pipefail
@@ -67,8 +67,40 @@ case "$DE" in
       xfce4-weather-plugin
     )
     ;;
+  kde)
+    CORE=(
+      plasma-desktop
+      sddm
+    )
+    EXTRA=(
+      ark
+      bluedevil
+      breeze-gtk-theme
+      dolphin
+      ffmpegthumbs
+      gwenview
+      haruna
+      isoimagewriter
+      kate
+      kcalc
+      kclock
+      kde-spectacle
+      kdegraphics-thumbnailers
+      kio-extras
+      konsole
+      ksystemlog
+      kwrite
+      network-manager
+      okular
+      pkexec
+      plasma-nm
+      print-manager
+      qt6-image-formats-plugins
+      upower
+    )
+    ;;
   *)
-    echo "Usage: $0 gnome|xfce"
+    echo "Usage: $0 gnome|xfce|kde"
     exit 1
     ;;
 esac
